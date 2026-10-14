@@ -1,0 +1,168 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 520" width="1280" height="520" role="img" aria-label="constelação de ofício: ferramentas e habilidades">
+  <title>Constelação de ofício</title>
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0.7" y2="1">
+      <stop offset="0%" stop-color="#08040f"/>
+      <stop offset="55%" stop-color="#0d0620"/>
+      <stop offset="100%" stop-color="#0a0a1f"/>
+    </linearGradient>
+    <radialGradient id="hazeA" cx="0.18" cy="0.22" r="0.6">
+      <stop offset="0%" stop-color="#7c3aed" stop-opacity="0.30"/>
+      <stop offset="100%" stop-color="#7c3aed" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="hazeB" cx="0.82" cy="0.78" r="0.6">
+      <stop offset="0%" stop-color="#22d3ee" stop-opacity="0.22"/>
+      <stop offset="100%" stop-color="#22d3ee" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="hazeC" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0%" stop-color="#e879f9" stop-opacity="0.16"/>
+      <stop offset="100%" stop-color="#e879f9" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="sglow" x="-70%" y="-70%" width="240%" height="240%">
+      <feGaussianBlur stdDeviation="5" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="tglow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="3.4" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <clipPath id="stackClip"><rect width="1280" height="520" rx="18"/></clipPath>
+  </defs>
+
+  <g clip-path="url(#stackClip)">
+    <rect width="1280" height="520" fill="url(#sky)"/>
+    <rect width="1280" height="520" fill="url(#hazeA)"/>
+    <rect width="1280" height="520" fill="url(#hazeB)"/>
+    <rect width="1280" height="520" fill="url(#hazeC)"/>
+
+    <g stroke="#a78bfa" stroke-opacity="0.07" stroke-width="1">
+      <path d="M0 130 H1280 M0 260 H1280 M0 390 H1280 M213 0 V520 M426 0 V520 M640 0 V520 M853 0 V520 M1066 0 V520"/>
+    </g>
+
+    <!-- pó de estrelas -->
+    <g fill="#e9d5ff" opacity="0.85">
+      <circle cx="70" cy="70" r="1.2"><animate attributeName="opacity" values="0.1;0.9;0.15" dur="5.1s" repeatCount="indefinite"/></circle>
+      <circle cx="180" cy="430" r="1.4"><animate attributeName="opacity" values="0.15;1;0.2" dur="6.4s" begin="0.8s" repeatCount="indefinite"/></circle>
+      <circle cx="300" cy="90" r="1.1"><animate attributeName="opacity" values="0.1;0.8;0.15" dur="4.7s" begin="1.5s" repeatCount="indefinite"/></circle>
+      <circle cx="392" cy="470" r="1.3"><animate attributeName="opacity" values="0.15;0.95;0.2" dur="5.9s" begin="2.1s" repeatCount="indefinite"/></circle>
+      <circle cx="520" cy="60" r="1.2"><animate attributeName="opacity" values="0.1;0.85;0.15" dur="6.8s" begin="0.4s" repeatCount="indefinite"/></circle>
+      <circle cx="600" cy="452" r="1.1"><animate attributeName="opacity" values="0.15;0.8;0.2" dur="5.3s" begin="1.9s" repeatCount="indefinite"/></circle>
+      <circle cx="700" cy="120" r="1.4"><animate attributeName="opacity" values="0.1;1;0.15" dur="4.2s" begin="2.6s" repeatCount="indefinite"/></circle>
+      <circle cx="820" cy="470" r="1.2"><animate attributeName="opacity" values="0.15;0.9;0.2" dur="6.1s" begin="0.9s" repeatCount="indefinite"/></circle>
+      <circle cx="900" cy="70" r="1.3"><animate attributeName="opacity" values="0.1;0.85;0.15" dur="5.5s" begin="1.3s" repeatCount="indefinite"/></circle>
+      <circle cx="1010" cy="420" r="1.1"><animate attributeName="opacity" values="0.15;0.8;0.2" dur="6.6s" begin="2.4s" repeatCount="indefinite"/></circle>
+      <circle cx="1120" cy="110" r="1.4"><animate attributeName="opacity" values="0.1;1;0.2" dur="4.9s" begin="0.5s" repeatCount="indefinite"/></circle>
+      <circle cx="1210" cy="470" r="1.2"><animate attributeName="opacity" values="0.15;0.9;0.2" dur="5.7s" begin="1.7s" repeatCount="indefinite"/></circle>
+      <circle cx="250" cy="230" r="1"><animate attributeName="opacity" values="0.1;0.75;0.15" dur="7.2s" begin="3s" repeatCount="indefinite"/></circle>
+      <circle cx="1050" cy="270" r="1"><animate attributeName="opacity" values="0.1;0.75;0.15" dur="7.2s" begin="1.1s" repeatCount="indefinite"/></circle>
+      <circle cx="480" cy="300" r="1.1"><animate attributeName="opacity" values="0.15;0.8;0.2" dur="6.3s" begin="2.9s" repeatCount="indefinite"/></circle>
+    </g>
+
+    <!-- ligações da constelação: desenham ao carregar -->
+    <g fill="none" stroke="#c4b5fd" stroke-opacity="0.34" stroke-width="1.1">
+      <path d="M188 132 L392 96 L596 150 L760 96 L1010 128" stroke-dasharray="900" stroke-dashoffset="900">
+        <animate attributeName="stroke-dashoffset" from="900" to="0" dur="3.4s" begin="0.3s" fill="freeze" calcMode="spline" keySplines="0.25 0.8 0.2 1"/>
+      </path>
+      <path d="M188 132 L268 322 L448 396 L640 330 L830 404 L1010 128" stroke-dasharray="1200" stroke-dashoffset="1200">
+        <animate attributeName="stroke-dashoffset" from="1200" to="0" dur="4.2s" begin="1s" fill="freeze" calcMode="spline" keySplines="0.25 0.8 0.2 1"/>
+      </path>
+      <path d="M596 150 L640 330 M760 96 L830 404 M448 396 L268 322" stroke-dasharray="700" stroke-dashoffset="700" stroke-opacity="0.22">
+        <animate attributeName="stroke-dashoffset" from="700" to="0" dur="3s" begin="1.8s" fill="freeze"/>
+      </path>
+      <path d="M392 96 L600 230 L640 330" stroke-dasharray="900" stroke-dashoffset="900" stroke-opacity="0.26">
+        <animate attributeName="stroke-dashoffset" from="900" to="0" dur="3.6s" begin="2.2s" fill="freeze"/>
+      </path>
+      <path d="M1010 128 L1082 306 L830 404" stroke-dasharray="900" stroke-dashoffset="900" stroke-opacity="0.26">
+        <animate attributeName="stroke-dashoffset" from="900" to="0" dur="3.6s" begin="2.6s" fill="freeze"/>
+      </path>
+    </g>
+
+    <!-- nós extras: equilibram a constelação à direita e no centro-baixo -->
+    <g filter="url(#sglow)">
+      <g fill="#fde68a">
+        <circle cx="600" cy="230" r="4"><animate attributeName="r" values="3.4;4.9;3.4" dur="5.1s" begin="1.4s" repeatCount="indefinite"/></circle>
+      </g>
+      <g fill="#67e8f9">
+        <circle cx="1082" cy="306" r="4.2"><animate attributeName="r" values="3.6;5.1;3.6" dur="4.9s" begin="0.7s" repeatCount="indefinite"/></circle>
+      </g>
+    </g>
+    <g font-family="'JetBrains Mono',ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="15" letter-spacing="0.6">
+      <g transform="translate(600,230)">
+        <text x="0" y="-18" fill="#fef3c7" text-anchor="middle" filter="url(#tglow)">TypeScript</text>
+        <text x="0" y="32" fill="#a5b4fc" text-anchor="middle" font-size="11.5" letter-spacing="1.4">TIPOS</text>
+      </g>
+      <g transform="translate(1082,306)">
+        <text x="0" y="-18" fill="#a5f3fc" text-anchor="middle" filter="url(#tglow)">CI / Actions</text>
+        <text x="0" y="32" fill="#a5b4fc" text-anchor="middle" font-size="11.5" letter-spacing="1.4">AUTOMAÇÃO</text>
+      </g>
+    </g>
+
+    <!-- nós: camada principal de ofício -->
+    <g filter="url(#sglow)">
+      <g fill="#fde68a">
+        <circle cx="188" cy="132" r="4.6"><animate attributeName="r" values="4;5.6;4" dur="4.4s" repeatCount="indefinite"/></circle>
+        <circle cx="392" cy="96" r="5.2"><animate attributeName="r" values="4.4;6.2;4.4" dur="5.2s" repeatCount="indefinite"/></circle>
+        <circle cx="596" cy="150" r="4.6"><animate attributeName="r" values="4;5.6;4" dur="4.8s" begin="0.6s" repeatCount="indefinite"/></circle>
+        <circle cx="760" cy="96" r="5"><animate attributeName="r" values="4.2;6;4.2" dur="5.6s" begin="1.2s" repeatCount="indefinite"/></circle>
+        <circle cx="1010" cy="128" r="4.6"><animate attributeName="r" values="4;5.6;4" dur="4.6s" begin="1.8s" repeatCount="indefinite"/></circle>
+      </g>
+      <g fill="#67e8f9">
+        <circle cx="268" cy="322" r="4"><animate attributeName="r" values="3.4;4.9;3.4" dur="5.4s" repeatCount="indefinite"/></circle>
+        <circle cx="448" cy="396" r="4.4"><animate attributeName="r" values="3.8;5.3;3.8" dur="4.5s" begin="0.9s" repeatCount="indefinite"/></circle>
+        <circle cx="640" cy="330" r="4.2"><animate attributeName="r" values="3.6;5.1;3.6" dur="5.9s" begin="1.5s" repeatCount="indefinite"/></circle>
+        <circle cx="830" cy="404" r="4"><animate attributeName="r" values="3.4;4.9;3.4" dur="4.7s" begin="2.3s" repeatCount="indefinite"/></circle>
+      </g>
+    </g>
+
+    <!-- rótulos -->
+    <g font-family="'JetBrains Mono',ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="15" letter-spacing="0.6">
+      <g transform="translate(188,132)">
+        <text x="0" y="-20" fill="#fef3c7" text-anchor="middle" filter="url(#tglow)">Vue 3</text>
+        <text x="0" y="34" fill="#a5b4fc" text-anchor="middle" font-size="11.5" letter-spacing="1.4">FRONT</text>
+      </g>
+      <g transform="translate(392,96)">
+        <text x="0" y="-20" fill="#fef3c7" text-anchor="middle" filter="url(#tglow)">Vite</text>
+        <text x="0" y="34" fill="#a5b4fc" text-anchor="middle" font-size="11.5" letter-spacing="1.4">BUILD</text>
+      </g>
+      <g transform="translate(596,150)">
+        <text x="0" y="-20" fill="#fef3c7" text-anchor="middle" filter="url(#tglow)">.NET / C#</text>
+        <text x="0" y="34" fill="#a5b4fc" text-anchor="middle" font-size="11.5" letter-spacing="1.4">API</text>
+      </g>
+      <g transform="translate(760,96)">
+        <text x="0" y="-20" fill="#fef3c7" text-anchor="middle" filter="url(#tglow)">Postgres</text>
+        <text x="0" y="34" fill="#a5b4fc" text-anchor="middle" font-size="11.5" letter-spacing="1.4">DADOS</text>
+      </g>
+      <g transform="translate(1010,128)">
+        <text x="0" y="-20" fill="#fef3c7" text-anchor="middle" filter="url(#tglow)">GCP</text>
+        <text x="0" y="34" fill="#a5b4fc" text-anchor="middle" font-size="11.5" letter-spacing="1.4">NUVEM</text>
+      </g>
+      <g transform="translate(268,322)">
+        <text x="0" y="-18" fill="#a5f3fc" text-anchor="middle" filter="url(#tglow)">Firebase</text>
+        <text x="0" y="32" fill="#a5b4fc" text-anchor="middle" font-size="11.5" letter-spacing="1.4">REALTIME</text>
+      </g>
+      <g transform="translate(448,396)">
+        <text x="0" y="-18" fill="#a5f3fc" text-anchor="middle" filter="url(#tglow)">Docker</text>
+        <text x="0" y="32" fill="#a5b4fc" text-anchor="middle" font-size="11.5" letter-spacing="1.4">SHIP</text>
+      </g>
+      <g transform="translate(640,330)">
+        <text x="0" y="-18" fill="#a5f3fc" text-anchor="middle" filter="url(#tglow)">LLM &amp; agentes</text>
+        <text x="0" y="32" fill="#a5b4fc" text-anchor="middle" font-size="11.5" letter-spacing="1.4">OFÍCIO</text>
+      </g>
+      <g transform="translate(830,404)">
+        <text x="0" y="-18" fill="#a5f3fc" text-anchor="middle" filter="url(#tglow)">Python</text>
+        <text x="0" y="32" fill="#a5b4fc" text-anchor="middle" font-size="11.5" letter-spacing="1.4">TOOLING</text>
+      </g>
+    </g>
+
+    <!-- legenda -->
+    <g transform="translate(64,470)" font-family="'JetBrains Mono',ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="11.5" letter-spacing="2" fill="#c4b5fd" opacity="0.8">
+      <circle cx="0" cy="-4" r="3.4" fill="#fde68a"/>
+      <text x="14" y="0">PRODUÇÃO</text>
+      <circle cx="132" cy="-4" r="3.4" fill="#67e8f9"/>
+      <text x="146" y="0">OFÍCIO</text>
+    </g>
+    <text x="1216" y="474" font-family="'JetBrains Mono',ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="11.5" letter-spacing="2.6" fill="#c4b5fd" opacity="0.55" text-anchor="end">✦ constelação de ofício</text>
+  </g>
+
+  <rect x="0.5" y="0.5" width="1279" height="519" rx="18" fill="none" stroke="#a78bfa" stroke-opacity="0.28"/>
+</svg>

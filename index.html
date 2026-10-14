@@ -1,0 +1,664 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Iasmin Nogueira — grimório de engenharia</title>
+<meta name="description" content="Grimório de Iasmin Nogueira: engenharia de software, IA & agentes, edtech. Vue, .NET, Firebase, Postgres, GCP.">
+<meta name="theme-color" content="#07030f">
+<meta property="og:title" content="Iasmin Nogueira — grimório de engenharia">
+<meta property="og:description" content="IA & agentes, edtech em produção, craft visual. Um grimório, não um currículo.">
+<meta property="og:type" content="profile">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%2307030f'/%3E%3Cpath d='M16 5 L24 16 L16 27 L8 16 Z' fill='none' stroke='%23f6c177' stroke-width='1.6'/%3E%3Ccircle cx='16' cy='16' r='3' fill='%23e879f9'/%3E%3C/svg%3E">
+<style>
+  :root{
+    --bg:#07030f;
+    --bg2:#0d0620;
+    --ink:#e7e2f5;
+    --dim:#a99fc9;
+    --violet:#a78bfa;
+    --violet2:#7c3aed;
+    --cyan:#67e8f9;
+    --gold:#f6c177;
+    --pink:#e879f9;
+    --panel:rgba(24,13,48,.55);
+    --line:rgba(167,139,250,.20);
+    --mono:ui-monospace,SFMono-Regular,"JetBrains Mono",Menlo,Consolas,monospace;
+    --serif:"Iowan Old Style","Palatino Linotype",Palatino,Georgia,"Times New Roman",serif;
+    --sans:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    --r:20px;
+  }
+  *{box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{
+    margin:0;background:var(--bg);color:var(--ink);font-family:var(--sans);
+    line-height:1.65;overflow-x:hidden;-webkit-font-smoothing:antialiased;
+  }
+  body::before{
+    content:"";position:fixed;inset:0;pointer-events:none;z-index:0;
+    background:
+      radial-gradient(60rem 60rem at 12% -10%, rgba(124,58,237,.30), transparent 60%),
+      radial-gradient(50rem 50rem at 105% 20%, rgba(34,211,238,.14), transparent 60%),
+      radial-gradient(45rem 45rem at 50% 110%, rgba(232,121,249,.12), transparent 60%);
+  }
+  #sky{position:fixed;inset:0;z-index:0;display:block}
+  .glow-cursor{
+    position:fixed;width:520px;height:520px;border-radius:50%;pointer-events:none;z-index:1;
+    background:radial-gradient(circle, rgba(167,139,250,.16), rgba(124,58,237,.06) 45%, transparent 70%);
+    transform:translate(-50%,-50%);transition:opacity .4s;opacity:0;mix-blend-mode:screen;
+  }
+  .progress{position:fixed;top:0;left:0;height:2px;width:0;z-index:60;
+    background:linear-gradient(90deg,var(--violet),var(--pink),var(--gold),var(--cyan));
+    box-shadow:0 0 12px rgba(246,193,119,.6)}
+  main,header,footer{position:relative;z-index:2}
+  .wrap{max-width:1120px;margin:0 auto;padding:0 24px}
+
+  /* nav */
+  nav.top{position:sticky;top:0;z-index:50;backdrop-filter:blur(14px);
+    background:linear-gradient(180deg,rgba(7,3,15,.86),rgba(7,3,15,.45));border-bottom:1px solid rgba(167,139,250,.14)}
+  nav.top .wrap{display:flex;align-items:center;gap:18px;height:64px}
+  .mark{display:flex;align-items:center;gap:12px;text-decoration:none;color:var(--ink)}
+  .mark svg{width:30px;height:30px;filter:drop-shadow(0 0 8px rgba(246,193,119,.5))}
+  .mark b{font-family:var(--serif);font-weight:600;letter-spacing:.14em;font-size:15px;text-transform:uppercase}
+  nav.top ul{display:flex;gap:22px;margin:0 0 0 auto;padding:0;list-style:none}
+  nav.top a.lnk{color:var(--dim);text-decoration:none;font-size:13.5px;letter-spacing:.06em;position:relative;padding:4px 0}
+  nav.top a.lnk::after{content:"";position:absolute;left:0;right:100%;bottom:0;height:1px;
+    background:linear-gradient(90deg,var(--violet),var(--cyan));transition:right .35s}
+  nav.top a.lnk:hover{color:var(--ink)}
+  nav.top a.lnk:hover::after{right:0}
+  .ghbtn{font-family:var(--mono);font-size:12.5px;text-decoration:none;color:var(--ink);
+    border:1px solid var(--line);border-radius:999px;padding:7px 15px;background:rgba(167,139,250,.08);
+    transition:.3s;white-space:nowrap}
+  .ghbtn:hover{border-color:rgba(246,193,119,.55);background:rgba(246,193,119,.10);transform:translateY(-1px)}
+  @media (max-width:820px){nav.top ul{display:none}}
+
+  /* hero */
+  .hero{position:relative;padding:86px 0 40px}
+  .kicker{font-family:var(--mono);font-size:12px;letter-spacing:.34em;text-transform:uppercase;color:var(--gold);opacity:.9}
+  h1{font-family:var(--serif);font-weight:600;font-size:clamp(44px,8.4vw,104px);line-height:.98;
+    margin:16px 0 0;letter-spacing:.02em;
+    background:linear-gradient(96deg,#fde68a 6%,#f6c177 22%,#e879f9 52%,#a78bfa 72%,#67e8f9 96%);
+    -webkit-background-clip:text;background-clip:text;color:transparent;
+    background-size:220% 100%;animation:sheen 11s ease-in-out infinite}
+  @keyframes sheen{0%,100%{background-position:0% 50%}50%{background-position:100% 50%}}
+  .typed{margin:20px 0 0;font-family:var(--mono);font-size:clamp(13px,1.7vw,17px);color:var(--dim);letter-spacing:.06em;min-height:1.6em}
+  .typed .cur{display:inline-block;width:9px;height:1.05em;background:var(--cyan);vertical-align:-2px;
+    animation:blink 1.05s steps(1) infinite;box-shadow:0 0 10px rgba(103,232,249,.8)}
+  @keyframes blink{50%{opacity:0}}
+  .lede{max-width:660px;margin:24px 0 0;color:#cfc7e8;font-size:clamp(15px,1.9vw,18.5px)}
+  .lede em{color:#fde68a;font-style:normal}
+  .cta{display:flex;flex-wrap:wrap;gap:14px;margin-top:34px}
+  .btn{display:inline-flex;align-items:center;gap:10px;text-decoration:none;font-size:14.5px;font-weight:600;
+    padding:13px 22px;border-radius:999px;transition:.32s;border:1px solid transparent}
+  .btn.primary{background:linear-gradient(100deg,var(--violet2),#a855f7 45%,#e879f9);color:#fff;
+    box-shadow:0 12px 40px -12px rgba(168,85,247,.85)}
+  .btn.primary:hover{transform:translateY(-2px);box-shadow:0 18px 50px -12px rgba(232,121,249,.9)}
+  .btn.ghost{border-color:var(--line);color:var(--ink);background:rgba(24,13,48,.5)}
+  .btn.ghost:hover{border-color:rgba(103,232,249,.5);transform:translateY(-2px)}
+  .chips{display:flex;flex-wrap:wrap;gap:10px;margin-top:38px}
+  .chip{font-family:var(--mono);font-size:12px;letter-spacing:.08em;color:var(--dim);
+    border:1px solid var(--line);border-radius:999px;padding:7px 14px;background:rgba(13,6,32,.6)}
+  .chip b{color:var(--gold);font-weight:600}
+
+  /* seções */
+  section{padding:74px 0}
+  .sechead{display:flex;align-items:baseline;gap:16px;flex-wrap:wrap;margin-bottom:8px}
+  .sechead h2{font-family:var(--serif);font-size:clamp(28px,4.4vw,44px);margin:0;font-weight:600;letter-spacing:.01em}
+  .sechead .n{font-family:var(--mono);font-size:12px;color:var(--gold);letter-spacing:.3em}
+  .sub{color:var(--dim);max-width:640px;margin:8px 0 34px;font-size:15.5px}
+
+  .grid{display:grid;gap:20px}
+  .g2{grid-template-columns:repeat(auto-fit,minmax(330px,1fr))}
+  .g3{grid-template-columns:repeat(auto-fit,minmax(260px,1fr))}
+  .g4{grid-template-columns:repeat(auto-fit,minmax(212px,1fr))}
+
+  .card{position:relative;border:1px solid var(--line);border-radius:var(--r);padding:24px;
+    background:linear-gradient(160deg,rgba(30,16,60,.72),rgba(10,6,26,.62));overflow:hidden;
+    transition:transform .38s cubic-bezier(.2,.8,.2,1),border-color .38s,box-shadow .38s}
+  .card::after{content:"";position:absolute;inset:-1px;border-radius:inherit;pointer-events:none;
+    background:radial-gradient(22rem 12rem at var(--mx,50%) var(--my,0%),rgba(167,139,250,.16),transparent 70%);opacity:0;transition:opacity .4s}
+  .card:hover{transform:translateY(-5px);border-color:rgba(246,193,119,.42);
+    box-shadow:0 26px 60px -28px rgba(168,85,247,.75)}
+  .card:hover::after{opacity:1}
+  .ico{width:44px;height:44px;border-radius:13px;display:grid;place-items:center;font-size:21px;
+    background:linear-gradient(150deg,rgba(167,139,250,.24),rgba(103,232,249,.14));
+    border:1px solid var(--line);margin-bottom:16px}
+  .card h3{margin:0 0 8px;font-size:17.5px;letter-spacing:.01em}
+  .card p{margin:0;color:var(--dim);font-size:14.5px}
+  .tag{display:inline-block;font-family:var(--mono);font-size:11px;letter-spacing:.14em;text-transform:uppercase;
+    color:var(--cyan);border:1px solid rgba(103,232,249,.28);border-radius:6px;padding:3px 8px;margin-bottom:14px}
+  .tag.prod{color:var(--gold);border-color:rgba(246,193,119,.32)}
+
+  /* skills */
+  .skill{display:flex;flex-direction:column;gap:12px}
+  .skill .row{display:flex;align-items:baseline;justify-content:space-between;gap:10px;flex-wrap:wrap}
+  .skill .name{font-weight:600;font-size:15px}
+  .skill .lvl{font-family:var(--mono);font-size:11.5px;color:var(--gold);white-space:nowrap}
+  .bar{height:5px;border-radius:99px;background:rgba(167,139,250,.14);overflow:hidden}
+  .bar i{display:block;height:100%;width:0;border-radius:99px;
+    background:linear-gradient(90deg,var(--violet),var(--pink) 55%,var(--cyan));
+    transition:width 1.3s cubic-bezier(.2,.8,.2,1);box-shadow:0 0 12px rgba(168,85,247,.55)}
+  .skill small{color:var(--dim);font-family:var(--mono);font-size:11.5px;letter-spacing:.04em}
+
+  /* artefatos */
+  .repo{display:flex;flex-direction:column;gap:12px;text-decoration:none;color:inherit}
+  .repo .top{display:flex;align-items:center;gap:10px}
+  .repo .nm{font-family:var(--mono);font-size:15px;color:#f0e9ff;font-weight:600;word-break:break-word}
+  .repo .lock{font-size:12px;color:var(--gold);font-family:var(--mono)}
+  .repo p{color:var(--dim);font-size:14.5px;margin:0;flex:1}
+  .repo .meta{display:flex;align-items:center;gap:16px;font-family:var(--mono);font-size:11.8px;color:var(--dim);padding-top:6px;border-top:1px dashed rgba(167,139,250,.20)}
+  .dot{width:9px;height:9px;border-radius:50%;display:inline-block;margin-right:6px}
+
+  /* valores */
+  .rune{text-align:center;padding:28px 20px}
+  .rune svg{width:42px;height:48px;stroke:var(--gold);fill:none;stroke-width:2;stroke-linecap:round;
+    filter:drop-shadow(0 0 9px rgba(246,193,119,.55));margin-bottom:14px}
+  .rune h3{font-family:var(--serif);font-size:19px;margin:0 0 8px}
+  .rune p{font-size:14px;color:var(--dim);margin:0}
+
+  /* terminal */
+  .term{border:1px solid var(--line);border-radius:var(--r);overflow:hidden;
+    background:linear-gradient(180deg,rgba(12,6,30,.92),rgba(7,4,18,.92));
+    box-shadow:0 30px 80px -40px rgba(0,0,0,.9)}
+  .term .bar-top{display:flex;align-items:center;gap:9px;padding:12px 16px;border-bottom:1px solid var(--line);
+    background:rgba(167,139,250,.05)}
+  .term .bar-top span{width:11px;height:11px;border-radius:50%;background:#3b3355}
+  .term .bar-top span:nth-child(1){background:#e879f9}
+  .term .bar-top span:nth-child(2){background:#f6c177}
+  .term .bar-top span:nth-child(3){background:#67e8f9}
+  .term .bar-top i{font-family:var(--mono);font-size:12px;color:var(--dim);margin-left:8px;font-style:normal}
+  .term pre{margin:0;padding:22px 20px 26px;font-family:var(--mono);font-size:13.2px;line-height:1.85;
+    white-space:pre-wrap;color:#d8d2ef}
+  .term .c{color:var(--cyan)}
+  .term .g{color:var(--gold)}
+  .term .p{color:var(--pink)}
+  .term .d{color:#8b81ad}
+  .ask{display:block;min-height:1.85em}
+
+  footer{padding:64px 0 90px;border-top:1px solid var(--line);margin-top:40px}
+  footer .row{display:flex;flex-wrap:wrap;gap:18px;align-items:center;justify-content:space-between}
+  footer .sig{display:flex;align-items:center;gap:14px}
+  footer .sig svg{width:38px;height:38px}
+  footer small{color:var(--dim);font-family:var(--mono);font-size:12px;letter-spacing:.06em}
+  footer .links{display:flex;gap:18px}
+  footer a{color:var(--dim);text-decoration:none;font-size:13.5px;border-bottom:1px solid transparent;transition:.3s}
+  footer a:hover{color:var(--gold);border-color:rgba(246,193,119,.5)}
+
+  .reveal{opacity:0;transform:translateY(26px)}
+  .reveal.in{opacity:1;transform:none;transition:opacity .8s cubic-bezier(.2,.8,.2,1),transform .8s cubic-bezier(.2,.8,.2,1)}
+  .en{margin-top:26px;padding:20px 22px;border-left:2px solid rgba(103,232,249,.4);background:rgba(13,6,32,.5);
+    border-radius:0 14px 14px 0;color:var(--dim);font-size:14px}
+  .en b{color:var(--ink)}
+
+  /* chuva de runas (easter egg: aperte R) */
+  .rune-fall{position:fixed;top:-8vh;z-index:70;pointer-events:none;font-size:22px;color:var(--gold);
+    text-shadow:0 0 12px rgba(246,193,119,.75)}
+  @media (prefers-reduced-motion:reduce){
+    *{animation:none!important;transition:none!important}
+    .reveal{opacity:1;transform:none}
+  }
+</style>
+</head>
+<body>
+<canvas id="sky" aria-hidden="true"></canvas>
+<div class="glow-cursor" id="glow" aria-hidden="true"></div>
+<div class="progress" id="prog" aria-hidden="true"></div>
+
+<nav class="top">
+  <div class="wrap">
+    <a class="mark" href="#topo">
+      <svg viewBox="0 0 40 40" aria-hidden="true">
+        <circle cx="20" cy="20" r="17" fill="none" stroke="#a78bfa" stroke-opacity=".5"/>
+        <circle cx="20" cy="20" r="12" fill="none" stroke="#67e8f9" stroke-opacity=".45" stroke-dasharray="3 5"/>
+        <path d="M20 6 L27 20 L20 34 L13 20 Z" fill="none" stroke="#f6c177" stroke-width="1.4"/>
+        <circle cx="20" cy="20" r="3" fill="#e879f9"/>
+      </svg>
+      <b>Iasmin Nogueira</b>
+    </a>
+    <ul>
+      <li><a class="lnk" href="#oficio">ofício</a></li>
+      <li><a class="lnk" href="#artefatos">artefatos</a></li>
+      <li><a class="lnk" href="#valores">valores</a></li>
+      <li><a class="lnk" href="#feitico">feitiço</a></li>
+    </ul>
+    <a class="ghbtn" href="https://github.com/yasameeen">github ↗</a>
+  </div>
+</nav>
+
+<main id="topo">
+  <header class="hero">
+    <div class="wrap">
+      <div class="kicker">grimório · engenharia de software</div>
+      <h1>Iasmin Nogueira</h1>
+      <p class="typed" id="typed" aria-live="polite"><span class="cur"></span></p>
+      <p class="lede">Construo produtos de educação que aguentam sala cheia: <em>IA aplicada</em> (correção de redação, OCR, pipelines de LLM), <em>API em produção</em> e <em>interface que dá vontade de usar</em>. Gosto de sistema que explica a si mesmo — e de código que outra pessoa consegue continuar.</p>
+      <div class="cta">
+        <a class="btn primary" href="#artefatos">✦ abrir o grimório</a>
+        <a class="btn ghost" href="https://github.com/yasameeen">ver no github ↗</a>
+      </div>
+      <div class="chips" id="chips">
+        <span class="chip">repos públicos <b>—</b></span>
+        <span class="chip">seguidores <b>—</b></span>
+        <span class="chip">codando desde <b>—</b></span>
+        <span class="chip">idioma <b>pt-BR / en</b></span>
+      </div>
+    </div>
+  </header>
+
+  <section id="oficio">
+    <div class="wrap">
+      <div class="sechead reveal"><span class="n">01</span><h2>Constelação de ofício</h2></div>
+      <p class="sub reveal">O que eu uso em produção e o que sustenta o trabalho de todos os dias. Nada de lista decorativa: isso aqui é o que aparece nos meus commits.</p>
+      <div class="grid g3">
+        <div class="card reveal">
+          <div class="ico">🧩</div>
+          <h3>Vue 3 · Vite</h3>
+          <p>Front-end componentizado, estado previsível, painéis densos de dados que continuam legíveis.</p>
+          <div class="skill" style="margin-top:16px">
+            <div class="row"><span class="name">interfaces &amp; design system</span><span class="lvl">diário</span></div>
+            <div class="bar"><i data-w="94%"></i></div>
+          </div>
+        </div>
+        <div class="card reveal">
+          <div class="ico">⚙️</div>
+          <h3>.NET · C#</h3>
+          <p>API monolítica que serve vários produtos, com regra de negócio séria e migrações versionadas.</p>
+          <div class="skill" style="margin-top:16px">
+            <div class="row"><span class="name">backend &amp; domínio</span><span class="lvl">produção</span></div>
+            <div class="bar"><i data-w="88%"></i></div>
+          </div>
+        </div>
+        <div class="card reveal">
+          <div class="ico">🔥</div>
+          <h3>Firebase · Postgres</h3>
+          <p>Realtime, autenticação multipapel e dados relacionais com consulta que não chora em carga.</p>
+          <div class="skill" style="margin-top:16px">
+            <div class="row"><span class="name">dados &amp; tempo real</span><span class="lvl">produção</span></div>
+            <div class="bar"><i data-w="86%"></i></div>
+          </div>
+        </div>
+        <div class="card reveal">
+          <div class="ico">🜂</div>
+          <h3>LLM &amp; agentes</h3>
+          <p>Pipelines de correção automática de redação, OCR de folha de resposta, orquestração de agentes para trabalho longo.</p>
+          <div class="skill" style="margin-top:16px">
+            <div class="row"><span class="name">ia aplicada</span><span class="lvl">favorito</span></div>
+            <div class="bar"><i data-w="91%"></i></div>
+          </div>
+        </div>
+        <div class="card reveal">
+          <div class="ico">☁️</div>
+          <h3>GCP · Docker</h3>
+          <p>Cloud Functions, pub/sub, deploy reprodutível em container. Subir sem surpresa virou requisito, não sorte.</p>
+          <div class="skill" style="margin-top:16px">
+            <div class="row"><span class="name">infra &amp; entrega</span><span class="lvl">produção</span></div>
+            <div class="bar"><i data-w="80%"></i></div>
+          </div>
+        </div>
+        <div class="card reveal">
+          <div class="ico">🛠️</div>
+          <h3>Python · automação</h3>
+          <p>Scripts, processamento de imagem e planilha, ferramenta interna. Se é repetitivo, vira script.</p>
+          <div class="skill" style="margin-top:16px">
+            <div class="row"><span class="name">tooling</span><span class="lvl">diário</span></div>
+            <div class="bar"><i data-w="84%"></i></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="artefatos">
+    <div class="wrap">
+      <div class="sechead reveal"><span class="n">02</span><h2>Artefatos</h2></div>
+      <p class="sub reveal">O que dá para mostrar em público — e o que só existe dentro do produto. Os cards puxam dados reais da API do GitHub quando a página abre.</p>
+      <div class="grid g2" id="repos">
+        <div class="card"><div class="repo"><span class="nm">carregando artefatos…</span></div></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="valores">
+    <div class="wrap">
+      <div class="sechead reveal"><span class="n">03</span><h2>O que eu valorizo</h2></div>
+      <p class="sub reveal">Quatro runas que eu carrego em qualquer projeto — vale mais que qualquer badge de tecnologia.</p>
+      <div class="grid g4">
+        <div class="card rune reveal">
+          <svg viewBox="0 0 20 28" aria-hidden="true"><path d="M4 2 L4 26 M4 2 L16 7 L4 12"/></svg>
+          <h3>Clareza</h3>
+          <p>Código e tela que se explicam. Se precisou de legenda pra fazer sentido, ainda não terminou.</p>
+        </div>
+        <div class="card rune reveal">
+          <svg viewBox="0 0 20 28" aria-hidden="true"><path d="M10 26 V4 M10 10 L3 3 M10 10 L17 3"/></svg>
+          <h3>Craft visual</h3>
+          <p>Detalhe não é enfeite: espaçamento, cor e movimento são parte da funcionalidade.</p>
+        </div>
+        <div class="card rune reveal">
+          <svg viewBox="0 0 20 28" aria-hidden="true"><path d="M10 26 V15 L4 9 V3 H16 V9 L10 15"/></svg>
+          <h3>Automação</h3>
+          <p>Tarefa repetida duas vezes vira script na terceira. Máquina faz o chato, eu faço o difícil.</p>
+        </div>
+        <div class="card rune reveal">
+          <svg viewBox="0 0 20 28" aria-hidden="true"><path d="M3 3 L17 26 M17 3 L3 26"/></svg>
+          <h3>Aprender em público</h3>
+          <p>Escrevo o que descobri, erro na frente dos outros e documento o caminho de volta.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="feitico">
+    <div class="wrap">
+      <div class="sechead reveal"><span class="n">04</span><h2>Feitiço de sexta-feira</h2></div>
+      <p class="sub reveal">Como um trabalho grande costuma acontecer comigo: eu desenho o plano, convoco agentes, reviso o que volta.</p>
+      <div class="term reveal">
+        <div class="bar-top"><span></span><span></span><span></span><i>~/grimorio — zsh</i></div>
+        <pre id="demo"></pre>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="wrap row">
+      <div class="sig">
+        <svg viewBox="0 0 40 40" aria-hidden="true">
+          <circle cx="20" cy="20" r="17" fill="none" stroke="#a78bfa" stroke-opacity=".5"/>
+          <circle cx="20" cy="20" r="12" fill="none" stroke="#67e8f9" stroke-opacity=".45" stroke-dasharray="3 5"/>
+          <path d="M20 6 L27 20 L20 34 L13 20 Z" fill="none" stroke="#f6c177" stroke-width="1.4"/>
+          <circle cx="20" cy="20" r="3" fill="#e879f9"/>
+        </svg>
+        <div>
+          <small>feito à mão em html, css e js — sem framework, sem template</small><br>
+          <small>aperte <b style="color:var(--gold)">R</b> no teclado ✦</small>
+        </div>
+      </div>
+      <div class="links">
+        <a href="https://github.com/yasameeen">GitHub</a>
+        <a href="#topo">voltar ao topo ↑</a>
+      </div>
+    </div>
+    <div class="wrap">
+      <div class="en"><b>EN ·</b> Software engineer working on AI applied to education: essay grading, answer-sheet OCR, LLM pipelines and agent orchestration. Vue 3 · Vite · .NET/C# · Firebase · Postgres · GCP · Docker. I care about clarity, visual craft and automating the boring parts.</div>
+    </div>
+  </footer>
+</main>
+
+<script>
+(function(){
+  "use strict";
+  const reduce = matchMedia("(prefers-reduced-motion: reduce)").matches;
+  const USER = "yasameeen";
+
+  /* ---------- canvas: céu + constelação que reage ao mouse ---------- */
+  const cv = document.getElementById("sky"), ctx = cv.getContext("2d");
+  let stars = [], W = 0, H = 0, dpr = Math.min(devicePixelRatio || 1, 2);
+  const mouse = {x:-9999, y:-9999};
+
+  function size(){
+    W = innerWidth; H = innerHeight;
+    cv.width = W * dpr; cv.height = H * dpr;
+    cv.style.width = W + "px"; cv.style.height = H + "px";
+    ctx.setTransform(dpr,0,0,dpr,0,0);
+    build();
+  }
+  function build(){
+    const n = Math.round(Math.min(170, Math.max(70, (W*H)/14000)));
+    stars = Array.from({length:n}, () => ({
+      x: Math.random()*W, y: Math.random()*H,
+      r: Math.random()*1.5 + .35,
+      a: Math.random()*.6 + .25,
+      ph: Math.random()*Math.PI*2,
+      sp: Math.random()*.9 + .35,
+      hue: Math.random() < .18 ? "gold" : (Math.random() < .3 ? "cyan" : "violet"),
+      vx: (Math.random()-.5)*.09, vy: (Math.random()-.5)*.09
+    }));
+  }
+  const COL = {violet:"233,213,255", gold:"246,193,119", cyan:"165,243,252"};
+
+  let t = 0;
+  function frame(){
+    t += .016;
+    ctx.clearRect(0,0,W,H);
+    // linhas de constelação
+    for (let i=0;i<stars.length;i++){
+      const s = stars[i];
+      for (let j=i+1;j<stars.length;j++){
+        const o = stars[j];
+        const dx = s.x-o.x, dy = s.y-o.y, d2 = dx*dx+dy*dy;
+        if (d2 < 15000){
+          const d = Math.sqrt(d2);
+          const boost = Math.max(0, 1 - Math.hypot((s.x-mouse.x), (s.y-mouse.y))/220);
+          ctx.strokeStyle = "rgba(167,139,250," + ((1-d/122)*.20 + boost*.30).toFixed(3) + ")";
+          ctx.lineWidth = .7 + boost*1.1;
+          ctx.beginPath(); ctx.moveTo(s.x,s.y); ctx.lineTo(o.x,o.y); ctx.stroke();
+        }
+      }
+    }
+    for (const s of stars){
+      s.x += s.vx; s.y += s.vy;
+      if (s.x < -10) s.x = W+10; if (s.x > W+10) s.x = -10;
+      if (s.y < -10) s.y = H+10; if (s.y > H+10) s.y = -10;
+      const tw = s.a * (.68 + .32*Math.sin(t*s.sp + s.ph));
+      const pl = Math.max(0, 1 - Math.hypot(s.x-mouse.x, s.y-mouse.y)/170);
+      ctx.beginPath();
+      ctx.fillStyle = "rgba(" + COL[s.hue] + "," + Math.min(1, tw + pl*.5).toFixed(3) + ")";
+      ctx.arc(s.x, s.y, s.r + pl*1.5, 0, Math.PI*2); ctx.fill();
+      if (s.hue === "gold" || pl > .3){
+        ctx.beginPath();
+        ctx.fillStyle = "rgba(" + COL[s.hue] + "," + (pl*.12 + .05).toFixed(3) + ")";
+        ctx.arc(s.x, s.y, (s.r+pl*1.5)*5, 0, Math.PI*2); ctx.fill();
+      }
+    }
+    // estrela cadente ocasional
+    if (!reduce && Math.random() < .0022){
+      shooting = {x: Math.random()*W*.7, y: Math.random()*H*.4, vx: 5.4, vy: 2.2, life: 1};
+    }
+    if (shooting){
+      const s = shooting;
+      ctx.strokeStyle = "rgba(254,249,195," + (s.life*.85).toFixed(3) + ")";
+      ctx.lineWidth = 1.6; ctx.beginPath();
+      ctx.moveTo(s.x, s.y); ctx.lineTo(s.x - 58, s.y - 24); ctx.stroke();
+      s.x += s.vx; s.y += s.vy; s.life -= .012;
+      if (s.life <= 0 || s.x > W+80 || s.y > H+80) shooting = null;
+    }
+    requestAnimationFrame(frame);
+  }
+  let shooting = null;
+  addEventListener("resize", size);
+  addEventListener("pointermove", e => { mouse.x = e.clientX; mouse.y = e.clientY; });
+  size();
+  if (!reduce) frame(); else { size(); frame(); }
+
+  /* ---------- glow que segue o cursor ---------- */
+  const glow = document.getElementById("glow");
+  if (!reduce && matchMedia("(hover:hover)").matches){
+    let gx = 0, gy = 0, tx = 0, ty = 0;
+    addEventListener("pointermove", e => { tx = e.clientX; ty = e.clientY; glow.style.opacity = 1; });
+    addEventListener("pointerleave", () => glow.style.opacity = 0);
+    (function lerp(){
+      gx += (tx-gx)*.12; gy += (ty-gy)*.12;
+      glow.style.transform = "translate(" + gx + "px," + gy + "px) translate(-50%,-50%)";
+      requestAnimationFrame(lerp);
+    })();
+  }
+
+  /* ---------- barra de progresso ---------- */
+  const prog = document.getElementById("prog");
+  addEventListener("scroll", () => {
+    const h = document.documentElement.scrollHeight - innerHeight;
+    prog.style.width = (h > 0 ? (scrollY/h)*100 : 0) + "%";
+  }, {passive:true});
+
+  /* ---------- subtítulo digitado ---------- */
+  const PHRASES = [
+    "engenheira de software · ia & agentes · edtech",
+    "vue 3 · .net/c# · firebase · postgres · gcp",
+    "correção de redação, ocr e pipelines de llm em produção",
+    "craft visual + automação: a parte chata vira script"
+  ];
+  const typed = document.getElementById("typed");
+  if (reduce){ typed.textContent = PHRASES[0]; }
+  else {
+    let pi = 0, ci = 0, del = false;
+    (function type(){
+      const p = PHRASES[pi];
+      typed.innerHTML = p.slice(0, ci) + '<span class="cur"></span>';
+      if (!del && ci < p.length){ ci++; setTimeout(type, 38 + Math.random()*36); }
+      else if (!del){ del = true; setTimeout(type, 2100); }
+      else if (ci > 0){ ci--; setTimeout(type, 16); }
+      else { del = false; pi = (pi+1) % PHRASES.length; setTimeout(type, 320); }
+    })();
+  }
+
+  /* ---------- reveals + barras + tilt nos cards ---------- */
+  const io = new IntersectionObserver(es => {
+    for (const e of es){
+      if (!e.isIntersecting) continue;
+      e.target.classList.add("in");
+      e.target.querySelectorAll(".bar i").forEach(i => { i.style.width = i.dataset.w; });
+      io.unobserve(e.target);
+    }
+  }, {threshold:.18, rootMargin:"0px 0px -40px"});
+  const observe = () => document.querySelectorAll(".reveal").forEach(el => io.observe(el));
+
+  document.addEventListener("pointermove", e => {
+    const c = e.target.closest?.(".card");
+    if (!c) return;
+    const r = c.getBoundingClientRect();
+    c.style.setProperty("--mx", ((e.clientX-r.left)/r.width*100).toFixed(1) + "%");
+    c.style.setProperty("--my", ((e.clientY-r.top)/r.height*100).toFixed(1) + "%");
+  });
+
+  /* ---------- dados reais do GitHub ---------- */
+  const LANG = {Java:"#b07219",JavaScript:"#f1e05a",TypeScript:"#3178c6",Python:"#3572A5",Shell:"#89e051",HTML:"#e34c26",CSS:"#563d7c",Vue:"#41b883","C#":"#178600",Go:"#00ADD8",Rust:"#dea584",Kotlin:"#A97BFF",Dart:"#00B4AB"};
+  const CURATED = [
+    {nm:"edtech em produção", tag:"prod", desc:"Produto de educação com correção automática de redação, OCR de folha de respostas, painéis de desempenho e API .NET servindo app, web e admin.", meta:["privado","em produção"], url:null},
+    {nm:"arcanum", tag:"prod", desc:"Segundo cérebro pessoal — notas interligadas, busca e automação. Onde eu penso fora da cabeça.", meta:["privado","em construção"], url:null}
+  ];
+
+  function card(cur){
+    const dot = cur.lang ? '<span class="dot" style="background:' + (LANG[cur.lang] || "#a78bfa") + '"></span>' + cur.lang : "";
+    const link = cur.url ? ' href="' + cur.url + '" target="_blank" rel="noopener"' : "";
+    return '<div class="card reveal"><a class="repo"' + link + '>' +
+      '<div class="top"><span class="tag ' + (cur.tag === "prod" ? "prod" : "") + '">' + (cur.tag === "prod" ? "produção" : "público") + '</span>' +
+      (cur.url ? "" : '<span class="lock">🔒</span>') + '</div>' +
+      '<span class="nm">' + cur.nm + (cur.url ? ' ↗' : '') + '</span>' +
+      '<p>' + cur.desc + '</p>' +
+      '<div class="meta"><span>' + dot + '</span><span>' + cur.meta.join("</span><span>") + '</span></div>' +
+      '</a></div>';
+  }
+
+  function render(list, extra){
+    document.getElementById("repos").innerHTML = list.map(card).join("") + extra.map(card).join("");
+    observe();
+  }
+
+  const chips = document.getElementById("chips");
+  function setChips(p){
+    if (!p) return;
+    const since = p.created_at ? new Date(p.created_at).getFullYear() : null;
+    const vals = [p.public_repos, p.followers, since ? "20" + String(since).slice(2) : "—"];
+    chips.querySelectorAll(".chip b").forEach((b,i) => { if (vals[i] != null) b.textContent = vals[i]; });
+  }
+
+  fetch("https://api.github.com/users/" + USER)
+    .then(r => r.ok ? r.json() : Promise.reject(r.status))
+    .then(setChips).catch(() => setChips({public_repos:2, followers:1, created_at:"2023-08-25"}));
+
+  fetch("https://api.github.com/users/" + USER + "/repos?per_page=100&sort=updated")
+    .then(r => r.ok ? r.json() : Promise.reject(r.status))
+    .then(repos => {
+      const pub = repos.filter(r => !r.fork).map(r => ({
+        nm: r.name,
+        tag: "pub",
+        desc: r.description || "sem descrição — abre o código e vê.",
+        lang: r.language,
+        meta: [r.stargazers_count + " ★", "atualizado " + new Date(r.pushed_at).toLocaleDateString("pt-BR")],
+        url: r.html_url
+      }));
+      const forks = repos.filter(r => r.fork).map(r => ({
+        nm: r.name, tag:"pub", desc: r.description || "fork", lang: r.language,
+        meta:["fork", "atualizado " + new Date(r.pushed_at).toLocaleDateString("pt-BR")], url:r.html_url
+      }));
+      const list = pub.concat(forks).slice(0,4);
+      render(list.length ? list : CURATED, list.length ? CURATED : []);
+    })
+    .catch(() => render([
+      {nm:"hermes-agent", tag:"pub", desc:"The agent that grows with you.", lang:"Python", meta:["público","fork"], url:"https://github.com/yasameeen/hermes-agent"},
+      {nm:"bibliotheca-arcana", tag:"pub", desc:"Sistema de gerenciamento de biblioteca virtual em Java — LinkedList, Queue, Stack e HashMap como grafo de recomendações.", lang:"Java", meta:["público","java"], url:"https://github.com/yasameeen/bibliotheca-arcana"}
+    ], CURATED));
+
+  /* ---------- terminal do feitiço ---------- */
+  const LINES = [
+    ["<span class='d'># segunda, 9h. plano do dia, não tarefa solta.</span>", 340],
+    ["<span class='c'>$</span> plano do dia <span class='g'>\"análise da redação: apontar competência + trecho\"</span>", 620],
+    ["<span class='d'>  → plano salvo, 4 etapas, nenhuma ambígua</span>", 380],
+    ["<span class='c'>$</span> convocar agentes <span class='g'>--revisao</span> <span class='g'>--testes</span>", 560],
+    ["<span class='p'>  ✦</span> 2 subagentes no ar… <span class='d'>(um revisa, um quebra o meu código de propósito)</span>", 620],
+    ["<span class='c'>$</span> gh pr create --fill", 340],
+    ["<span class='p'>  ✓</span> PR aberto · CI verde · 1 teste que faltava, agora existe", 620],
+    ["<span class='c'>$</span> merge <span class='g'>--squash</span>", 300],
+    ["<span class='p'>  ✓</span> em produção. <span class='d'>craft visual revisado antes, não depois.</span>", 700]
+  ];
+  const demo = document.getElementById("demo");
+  if (reduce){
+    demo.innerHTML = LINES.map(l => "<span class='ask'>" + l[0] + "</span>").join("");
+  } else {
+    const dio = new IntersectionObserver(es => {
+      if (!es[0].isIntersecting) return;
+      dio.disconnect();
+      let i = 0, j = 0, html = "";
+      (function step(){
+        if (i >= LINES.length) return;
+        const raw = LINES[i][0].replace(/<[^>]+>/g, "");
+        if (j <= raw.length){
+          const partial = cut(LINES[i][0], j);
+          demo.innerHTML = html + partial + '<span class="cur"></span>';
+          j++; setTimeout(step, 12);
+        } else {
+          html += "<span class='ask'>" + LINES[i][0] + "</span>\n";
+          demo.innerHTML = html;
+          i++; j = 0; setTimeout(step, LINES[i] ? LINES[i][1] : 400);
+        }
+      })();
+    }, {threshold:.25});
+    dio.observe(demo);
+
+    // corta o HTML preservando as tags para o efeito de digitação
+    function cut(src, n){
+      let out = "", count = 0, i = 0;
+      while (i < src.length && count < n){
+        if (src[i] === "<"){ const e = src.indexOf(">", i); out += src.slice(i, e+1); i = e+1; continue; }
+        out += src[i]; count++; i++;
+      }
+      return out;
+    }
+  }
+
+  /* ---------- easter egg: R faz chover runas ---------- */
+  const RUNES = ["ᚠ","ᚢ","ᚦ","ᚨ","ᚱ","ᚲ","ᛉ","ᛟ","✦","✧","☾","⚝"];
+  addEventListener("keydown", e => {
+    if (e.key.toLowerCase() !== "r" || e.metaKey || e.ctrlKey) return;
+    if (/^(input|textarea)$/i.test(document.activeElement.tagName)) return;
+    for (let i = 0; i < 34; i++){
+      const s = document.createElement("span");
+      s.className = "rune-fall";
+      s.textContent = RUNES[Math.floor(Math.random()*RUNES.length)];
+      s.style.left = Math.random()*100 + "vw";
+      s.style.color = ["#f6c177","#e879f9","#67e8f9","#fde68a"][Math.floor(Math.random()*4)];
+      s.style.fontSize = (14 + Math.random()*22) + "px";
+      document.body.appendChild(s);
+      const dur = 2600 + Math.random()*2600, drift = (Math.random()-.5)*160;
+      s.animate([
+        {transform:"translate(0,0) rotate(0deg)", opacity:0},
+        {transform:"translate(" + drift*.4 + "px," + innerHeight*.5 + "px) rotate(180deg)", opacity:1, offset:.45},
+        {transform:"translate(" + drift + "px," + (innerHeight+120) + "px) rotate(360deg)", opacity:0}
+      ], {duration:dur, easing:"cubic-bezier(.2,.7,.3,1)"}).onfinish = () => s.remove();
+    }
+  });
+
+  observe();
+})();
+</script>
+</body>
+</html>
