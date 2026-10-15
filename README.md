@@ -4,31 +4,27 @@
 
 </div>
 
----
-
 <img src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExNmNia2RxejdkaWd1b2lsNG9wOXprY2Q5aDRwZmZwb3FwazNxbDhoYiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/rhtlzUtAzhh2SujF7v/giphy.gif" align="right" width="310" alt="Tux, the Linux penguin, typing on an old computer">
 
 As a Full Stack Developer with a product instinct, I build AI, data and full-stack solutions used every day by schools in Brazil and Latin America, impacting more than **600k active students**. I connect intuitive interface design, intelligent data architectures and ecosystem automations to turn complex business rules into high-performance, people-centered solutions.
 
 My journey gives me a rare perspective: I understand both the technical and the human side of a product, and that is why I deliver more than systems, I deliver solutions that truly work for the people using them. Fluent in English, I move easily through global documentation and international collaborations, making sure technological innovation walks together with real impact.
 
-<br>
-<br>
-
 <div align="center">
+
+# Contact me!
 
 <a href="https://github.com/yasameeen"><img src="https://img.shields.io/badge/GitHub-yasameeen-7c3aed?style=for-the-badge&logo=github&logoColor=white&labelColor=0d0620" alt="GitHub"></a>
 <a href="https://www.linkedin.com/in/iasmin-victoria-nogueira-a001522ab/"><img src="https://img.shields.io/badge/LinkedIn-Iasmin%20Nogueira-0a66c2?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0d0620" alt="LinkedIn"></a>
+<a href="mailto:victoriaiasmin70@gmail.com"><img src="https://img.shields.io/badge/Gmail-victoriaiasmin70-EA4335?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0d0620" alt="Gmail"></a>
 
 </div>
-
-<br>
 
 ---
 
 <div align="center">
 
-### Languages &amp; Tools
+# Languages &amp; Tools
 
 <img src="https://raw.githubusercontent.com/yasameeen/yasameeen/main/icons/typescript.svg" width="46" alt="TypeScript" title="TypeScript">
 &nbsp;
@@ -107,16 +103,9 @@ My journey gives me a rare perspective: I understand both the technical and the 
 
 # My results
 
-</div>
+<img src="https://raw.githubusercontent.com/yasameeen/yasameeen/main/assets/results-card.svg" width="520" alt="My results in numbers: 600k+ active users, 2 education systems, number one device and print management, Google Editors Choice, anti-cheat hardened on ENEM mock exams, AI in production, LGPD and MEC aware">
 
-<table>
-  <tr>
-    <td align="center" width="25%"><br><h2>600k+</h2><sub><b>active users</b><br>across every platform I work on</sub><br><br></td>
-    <td align="center" width="25%"><br><h2>2</h2><sub><b>education systems</b><br>MEC (Brazil) and MEDUCA (Panama)</sub><br><br></td>
-    <td align="center" width="25%"><br><h2>#1</h2><sub><b>device and print management</b><br>won public tenders</sub><br><br></td>
-    <td align="center" width="25%"><br><h2>🏆</h2><sub><b>Google Editors' Choice</b><br>on our AI education platform</sub><br><br></td>
-  </tr>
-</table>
+</div>
 
 - 🛡️ **Anti-cheat that holds.** I hardened an offline ENEM mock-exam system against cheating: keyboard-command detection, F12 and devtools detection, and forced fullscreen-exit tracking during the exam.
 - 🎓 **AI aligned with curriculum.** I helped build an AI education platform aligned with MEC and MEDUCA for students and teachers, praised by State Departments of Education. I also ran the training sessions and presentations on it.
@@ -127,12 +116,12 @@ My journey gives me a rare perspective: I understand both the technical and the 
 
 <div align="center">
 
-### Contributions
+# Contributions
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/yasameeen/yasameeen/output/github-snake-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/yasameeen/yasameeen/output/github-snake.svg">
-  <img alt="Snake animation eating my contribution graph" src="https://raw.githubusercontent.com/yasameeen/yasameeen/output/github-snake.svg" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/yasameeen/yasameeen/main/output/github-snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/yasameeen/yasameeen/main/output/github-snake.svg">
+  <img alt="Snake animation eating my contribution graph" src="https://raw.githubusercontent.com/yasameeen/yasameeen/main/output/github-snake.svg" width="100%">
 </picture>
 
 </div>
