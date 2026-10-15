@@ -21,7 +21,6 @@ My journey gives me a rare perspective: I understand both the technical and the 
 
 
 <br>
-<br>
 
 <div align="center">
 
@@ -171,7 +170,6 @@ My journey gives me a rare perspective: I understand both the technical and the 
 
 
 <br>
-<br>
 
 <div align="center">
 
@@ -194,7 +192,6 @@ My journey gives me a rare perspective: I understand both the technical and the 
 - 🔐 **Privacy by design.** LGPD and MEC guidelines respected in everything I ship, from data modeling to the classroom.
 
 
-<br>
 <br>
 
 <div align="center">
