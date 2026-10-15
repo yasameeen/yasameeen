@@ -158,12 +158,12 @@ My journey gives me a rare perspective: I understand both the technical and the 
 
 <table>
   <tr>
-    <td width="50%" valign="top"><br><b>🧱 Product Engineering &amp; Clean Code</b><br><br>The final product is the result of a solid construction process. I practice Clean Code and clean architecture so the software is not only functional, but <b>readable, testable and scalable</b>.<br><br></td>
-    <td width="50%" valign="top"><br><b>🎨 UX, Aesthetics &amp; Intuitiveness</b><br><br>Beautiful interfaces are not enough, they have to work. I reduce the user's cognitive load with fluid flows, high-fidelity design and intuitive interfaces. And I <b>personalize</b>: every client, school and student should feel the product was made for them, not adapted to them.<br><br></td>
+    <td width="50%" valign="top"><br><h3>🧱 PRODUCT ENGINEERING &amp; CLEAN CODE</h3>The final product is the result of a solid construction process. I practice Clean Code and clean architecture so the software is not only functional, but <b>readable, testable and scalable</b>.<br><br></td>
+    <td width="50%" valign="top"><br><h3>🎨 UX, AESTHETICS &amp; INTUITIVENESS</h3>Beautiful interfaces are not enough, they have to work. I reduce the user's cognitive load with fluid flows, high-fidelity design and intuitive interfaces. And I <b>personalize</b>: every client, school and student should feel the product was made for them, not adapted to them.<br><br></td>
   </tr>
   <tr>
-    <td width="50%" valign="top"><br><b>♿ Inclusion &amp; Clarity</b><br><br>People-focused development: <b>accessibility (A11y)</b>, semantically correct code and transparent communication, both in the interface for the user and in the code for the team.<br><br></td>
-    <td width="50%" valign="top"><br><b>🎯 Impact First</b><br><br>Technology is a means, not an end. I align technical excellence to deliver <b>real value for the person using it</b> and results for the business.<br><br></td>
+    <td width="50%" valign="top"><br><h3>♿ INCLUSION &amp; CLARITY</h3>People-focused development: <b>accessibility (A11y)</b>, semantically correct code and transparent communication, both in the interface for the user and in the code for the team.<br><br></td>
+    <td width="50%" valign="top"><br><h3>🎯 IMPACT FIRST</h3>Technology is a means, not an end. I align technical excellence to deliver <b>real value for the person using it</b> and results for the business.<br><br></td>
   </tr>
 </table>
 
@@ -178,7 +178,7 @@ My journey gives me a rare perspective: I understand both the technical and the 
     <td align="center" width="25%"><br><img src="https://raw.githubusercontent.com/yasameeen/yasameeen/main/icons/metric-users.svg" width="52" alt="active users"><br><h2>600k+</h2><sub><b>active users</b><br>across every platform I work on</sub><br><br></td>
     <td align="center" width="25%"><br><img src="https://raw.githubusercontent.com/yasameeen/yasameeen/main/icons/metric-education.svg" width="52" alt="education systems"><br><h2>2</h2><sub><b>education systems</b><br>MEC (Brazil) and MEDUCA (Panama)</sub><br><br></td>
     <td align="center" width="25%"><br><img src="https://raw.githubusercontent.com/yasameeen/yasameeen/main/icons/metric-devices.svg" width="52" alt="device and print management"><br><h2>#1</h2><sub><b>device and print management</b><br>won public tenders</sub><br><br></td>
-    <td align="center" width="25%"><br><img src="https://raw.githubusercontent.com/yasameeen/yasameeen/main/icons/metric-google.svg" width="52" alt="Google Editors Choice"><br><h2>Editors' Choice</h2><sub><b>Google seal</b><br>on our AI education platform</sub><br><br></td>
+    <td align="center" width="25%"><br><img src="https://raw.githubusercontent.com/yasameeen/yasameeen/main/icons/metric-google.svg" width="52" alt="Google Editor's Choice"><br><h2>Google Editor's Choice</h2><sub><b>seal</b><br>on our AI education platform</sub><br><br></td>
   </tr>
 </table>
 
@@ -209,10 +209,8 @@ My journey gives me a rare perspective: I understand both the technical and the 
 
 # 🦋 Quote
 
-*"No one is too old for fairy tales! 💫"*
+<h3>"NO ONE IS TOO OLD FOR FAIRY TALES! 💫"</h3>
 
 </div>
-
----
 
 <img src="https://raw.githubusercontent.com/yasameeen/yasameeen/main/assets/footer-wave.svg" width="100%" alt="">
