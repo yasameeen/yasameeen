@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 110" width="1200" height="110"
+     preserveAspectRatio="none" role="presentation" aria-hidden="true">
+  <defs>
+    <linearGradient id="ondaFrente" x1="0" y1="0" x2="1200" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#a78bfa"/>
+      <stop offset="0.5" stop-color="#8b5cf6"/>
+      <stop offset="1" stop-color="#7c3aed"/>
+    </linearGradient>
+    <linearGradient id="ondaFundo" x1="0" y1="0" x2="1200" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#c4b5fd"/>
+      <stop offset="1" stop-color="#a78bfa"/>
+    </linearGradient>
+  </defs>
+  <path d="M0,52 C150,18 300,78 450,52 C600,26 750,80 900,52 C1050,24 1140,58 1200,42 L1200,110 L0,110 Z"
+        fill="url(#ondaFundo)" opacity="0.35"/>
+  <path d="M0,78 C150,50 300,102 450,78 C600,54 750,104 900,78 C1050,52 1140,88 1200,72 L1200,110 L0,110 Z"
+        fill="url(#ondaFrente)"/>
+</svg>

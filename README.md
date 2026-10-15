@@ -30,39 +30,109 @@ My journey gives me a rare perspective: I understand both the technical and the 
 &nbsp;
 <img src="https://raw.githubusercontent.com/yasameeen/yasameeen/main/icons/javascript.svg" width="46" alt="JavaScript" title="JavaScript">
 &nbsp;
+<img src="https://raw.githubusercontent.com/yasameeen/yasameeen/main/icons/python.svg" width="46" alt="Python" title="Python">
+&nbsp;
 <img src="https://raw.githubusercontent.com/yasameeen/yasameeen/main/icons/csharp.svg" width="46" alt="C#" title="C#">
 &nbsp;
 <img src="https://raw.githubusercontent.com/yasameeen/yasameeen/main/icons/dotnet.svg" width="46" alt=".NET" title=".NET">
 &nbsp;
 <img src="https://raw.githubusercontent.com/yasameeen/yasameeen/main/icons/java.svg" width="46" alt="Java" title="Java">
 &nbsp;
-<img src="https://raw.githubusercontent.com/yasameeen/yasameeen/main/icons/python.svg" width="46" alt="Python" title="Python">
+<img src="https://raw.githubusercontent.com/yasameeen/yasameeen/main/icons/kotlin.svg" width="46" alt="Kotlin" title="Kotlin">
 &nbsp;
+<img src="https://raw.githubusercontent.com/yasameeen/yasameeen/main/icons/dart.svg" width="46" alt="Dart" title="Dart">
+&nbsp;
+<img src="https://raw.githubusercontent.com/yasameeen/yasameeen/main/icons/php.svg" width="46" alt="PHP" title="PHP">
+&nbsp;
+<img src="https://raw.githubusercontent.com/yasameeen/yasameeen/main/icons/go.svg" width="46" alt="Go" title="Go">
+&nbsp;
+<img src="https://raw.githubusercontent.com/yasameeen/yasameeen/main/icons/rust.svg" width="46" alt="Rust" title="Rust">
+&nbsp;
+<img src="https://raw.githubusercontent.com/yasameeen/yasameeen/main/icons/bash.svg" width="46" alt="Bash" title="Bash">
+
+<br><br>
+
 <img src="https://raw.githubusercontent.com/yasameeen/yasameeen/main/icons/vue.svg" width="46" alt="Vue.js" title="Vue.js">
+&nbsp;
+<img src="https://raw.githubusercontent.com/yasameeen/yasameeen/main/icons/react.svg" width="46" alt="React" title="React">
+&nbsp;
+<img src="https://raw.githubusercontent.com/yasameeen/yasameeen/main/icons/angular.svg" width="46" alt="Angular" title="Angular">
+&nbsp;
+<img src="https://raw.githubusercontent.com/yasameeen/yasameeen/main/icons/nextjs.svg" width="46" alt="Next.js" title="Next.js">
 &nbsp;
 <img src="https://raw.githubusercontent.com/yasameeen/yasameeen/main/icons/vite.svg" width="46" alt="Vite" title="Vite">
 &nbsp;
 <img src="https://raw.githubusercontent.com/yasameeen/yasameeen/main/icons/nodejs.svg" width="46" alt="Node.js" title="Node.js">
 &nbsp;
+<img src="https://raw.githubusercontent.com/yasameeen/yasameeen/main/icons/flutter.svg" width="46" alt="Flutter" title="Flutter">
+&nbsp;
+<img src="https://raw.githubusercontent.com/yasameeen/yasameeen/main/icons/android.svg" width="46" alt="Android" title="Android">
+&nbsp;
 <img src="https://raw.githubusercontent.com/yasameeen/yasameeen/main/icons/html5.svg" width="46" alt="HTML5" title="HTML5">
 &nbsp;
 <img src="https://raw.githubusercontent.com/yasameeen/yasameeen/main/icons/css3.svg" width="46" alt="CSS3" title="CSS3">
 &nbsp;
-<img src="https://raw.githubusercontent.com/yasameeen/yasameeen/main/icons/vscode.svg" width="46" alt="VS Code" title="VS Code">
+<img src="https://raw.githubusercontent.com/yasameeen/yasameeen/main/icons/tailwind.svg" width="46" alt="Tailwind CSS" title="Tailwind CSS">
+&nbsp;
+<img src="https://raw.githubusercontent.com/yasameeen/yasameeen/main/icons/sass.svg" width="46" alt="Sass" title="Sass">
+&nbsp;
+<img src="https://raw.githubusercontent.com/yasameeen/yasameeen/main/icons/materialui.svg" width="46" alt="Material UI" title="Material UI">
+&nbsp;
+<img src="https://raw.githubusercontent.com/yasameeen/yasameeen/main/icons/figma.svg" width="46" alt="Figma" title="Figma">
 
 <br><br>
 
+<img src="https://raw.githubusercontent.com/yasameeen/yasameeen/main/icons/huggingface.svg" width="46" alt="Hugging Face" title="Hugging Face">
+&nbsp;
+<img src="https://raw.githubusercontent.com/yasameeen/yasameeen/main/icons/tensorflow.svg" width="46" alt="TensorFlow" title="TensorFlow">
+&nbsp;
+<img src="https://raw.githubusercontent.com/yasameeen/yasameeen/main/icons/pytorch.svg" width="46" alt="PyTorch" title="PyTorch">
+&nbsp;
+<img src="https://raw.githubusercontent.com/yasameeen/yasameeen/main/icons/jupyter.svg" width="46" alt="Jupyter" title="Jupyter">
+&nbsp;
+<img src="https://raw.githubusercontent.com/yasameeen/yasameeen/main/icons/anaconda.svg" width="46" alt="Anaconda" title="Anaconda">
+&nbsp;
+<img src="https://raw.githubusercontent.com/yasameeen/yasameeen/main/icons/pandas.svg" width="46" alt="pandas" title="pandas">
+&nbsp;
+<img src="https://raw.githubusercontent.com/yasameeen/yasameeen/main/icons/numpy.svg" width="46" alt="NumPy" title="NumPy">
+&nbsp;
 <img src="https://raw.githubusercontent.com/yasameeen/yasameeen/main/icons/postgresql.svg" width="46" alt="PostgreSQL" title="PostgreSQL">
 &nbsp;
 <img src="https://raw.githubusercontent.com/yasameeen/yasameeen/main/icons/mysql.svg" width="46" alt="MySQL" title="MySQL">
 &nbsp;
+<img src="https://raw.githubusercontent.com/yasameeen/yasameeen/main/icons/mongodb.svg" width="46" alt="MongoDB" title="MongoDB">
+&nbsp;
+<img src="https://raw.githubusercontent.com/yasameeen/yasameeen/main/icons/redis.svg" width="46" alt="Redis" title="Redis">
+&nbsp;
+<img src="https://raw.githubusercontent.com/yasameeen/yasameeen/main/icons/sqlite.svg" width="46" alt="SQLite" title="SQLite">
+&nbsp;
 <img src="https://raw.githubusercontent.com/yasameeen/yasameeen/main/icons/firebase.svg" width="46" alt="Firebase" title="Firebase">
 &nbsp;
+<img src="https://raw.githubusercontent.com/yasameeen/yasameeen/main/icons/supabase.svg" width="46" alt="Supabase" title="Supabase">
+
+<br><br>
+
 <img src="https://raw.githubusercontent.com/yasameeen/yasameeen/main/icons/googlecloud.svg" width="46" alt="Google Cloud" title="Google Cloud">
+&nbsp;
+<img src="https://raw.githubusercontent.com/yasameeen/yasameeen/main/icons/aws.svg" width="46" alt="AWS" title="AWS">
+&nbsp;
+<img src="https://raw.githubusercontent.com/yasameeen/yasameeen/main/icons/azure.svg" width="46" alt="Azure" title="Azure">
+&nbsp;
+<img src="https://raw.githubusercontent.com/yasameeen/yasameeen/main/icons/oracle.svg" width="46" alt="Oracle" title="Oracle">
+&nbsp;
+<img src="https://raw.githubusercontent.com/yasameeen/yasameeen/main/icons/ibm.svg" width="46" alt="IBM" title="IBM">
+&nbsp;
+<img src="https://raw.githubusercontent.com/yasameeen/yasameeen/main/icons/looker.svg" width="46" alt="Looker" title="Looker">
 &nbsp;
 <img src="https://raw.githubusercontent.com/yasameeen/yasameeen/main/icons/docker.svg" width="46" alt="Docker" title="Docker">
 &nbsp;
-<img src="https://raw.githubusercontent.com/yasameeen/yasameeen/main/icons/npmpkg.svg" width="46" alt="npm" title="npm">
+<img src="https://raw.githubusercontent.com/yasameeen/yasameeen/main/icons/kubernetes.svg" width="46" alt="Kubernetes" title="Kubernetes">
+&nbsp;
+<img src="https://raw.githubusercontent.com/yasameeen/yasameeen/main/icons/terraform.svg" width="46" alt="Terraform" title="Terraform">
+
+<br><br>
+
+<img src="https://raw.githubusercontent.com/yasameeen/yasameeen/main/icons/linux.svg" width="46" alt="Linux" title="Linux">
 &nbsp;
 <img src="https://raw.githubusercontent.com/yasameeen/yasameeen/main/icons/git.svg" width="46" alt="Git" title="Git">
 &nbsp;
@@ -70,11 +140,11 @@ My journey gives me a rare perspective: I understand both the technical and the 
 &nbsp;
 <img src="https://raw.githubusercontent.com/yasameeen/yasameeen/main/icons/githubactions.svg" width="46" alt="GitHub Actions" title="GitHub Actions">
 &nbsp;
-<img src="https://raw.githubusercontent.com/yasameeen/yasameeen/main/icons/bash.svg" width="46" alt="Bash" title="Bash">
+<img src="https://raw.githubusercontent.com/yasameeen/yasameeen/main/icons/jenkins.svg" width="46" alt="Jenkins" title="Jenkins">
 &nbsp;
-<img src="https://raw.githubusercontent.com/yasameeen/yasameeen/main/icons/linux.svg" width="46" alt="Linux" title="Linux">
+<img src="https://raw.githubusercontent.com/yasameeen/yasameeen/main/icons/grafana.svg" width="46" alt="Grafana" title="Grafana">
 &nbsp;
-<img src="https://raw.githubusercontent.com/yasameeen/yasameeen/main/icons/figma.svg" width="46" alt="Figma" title="Figma">
+<img src="https://raw.githubusercontent.com/yasameeen/yasameeen/main/icons/windows.svg" width="46" alt="Windows" title="Windows">
 
 </div>
 
@@ -142,3 +212,7 @@ My journey gives me a rare perspective: I understand both the technical and the 
 *"No one is too old for fairy tales! 💫"*
 
 </div>
+
+---
+
+<img src="https://raw.githubusercontent.com/yasameeen/yasameeen/main/assets/footer-wave.svg" width="100%" alt="">
