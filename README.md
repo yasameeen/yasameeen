@@ -12,8 +12,17 @@ As a Full Stack Developer with a product instinct, I build AI, data and full-sta
 
 My journey gives me a rare perspective: I understand both the technical and the human side of a product, and that is why I deliver more than systems, I deliver solutions that truly work for the people using them. Fluent in English, I move easily through global documentation and international collaborations, making sure technological innovation walks together with real impact.
 
+<br>
+<br>
+
+<div align="center">
+
 <a href="https://github.com/yasameeen"><img src="https://img.shields.io/badge/GitHub-yasameeen-7c3aed?style=for-the-badge&logo=github&logoColor=white&labelColor=0d0620" alt="GitHub"></a>
 <a href="https://www.linkedin.com/in/iasmin-victoria-nogueira-a001522ab/"><img src="https://img.shields.io/badge/LinkedIn-Iasmin%20Nogueira-0a66c2?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0d0620" alt="LinkedIn"></a>
+
+</div>
+
+<br>
 
 ---
 
