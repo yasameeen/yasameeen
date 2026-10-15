@@ -4,10 +4,10 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Iasmin Nogueira — grimório de engenharia</title>
-<meta name="description" content="Grimório de Iasmin Nogueira: engenharia de software, IA & agentes, edtech. Vue, .NET, Firebase, Postgres, GCP.">
+<meta name="description" content="Iasmin Nogueira — dev fullstack em edtech: IA aplicada, dados e produto. Da sala de aula para a engenharia. Vue 3, .NET/C#, Firebase, Postgres, GCP.">
 <meta name="theme-color" content="#07030f">
 <meta property="og:title" content="Iasmin Nogueira — grimório de engenharia">
-<meta property="og:description" content="IA & agentes, edtech em produção, craft visual. Um grimório, não um currículo.">
+<meta property="og:description" content="Da sala de aula para a engenharia: IA aplicada, dados e fullstack em edtech. Um grimório, não um currículo.">
 <meta property="og:type" content="profile">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%2307030f'/%3E%3Cpath d='M16 5 L24 16 L16 27 L8 16 Z' fill='none' stroke='%23f6c177' stroke-width='1.6'/%3E%3Ccircle cx='16' cy='16' r='3' fill='%23e879f9'/%3E%3C/svg%3E">
 <style>
@@ -190,6 +190,36 @@
     border-radius:0 14px 14px 0;color:var(--dim);font-size:14px}
   .en b{color:var(--ink)}
 
+  /* jornada */
+  .tl{position:relative;margin-top:30px;padding-left:40px}
+  .tl::before{content:"";position:absolute;left:10px;top:10px;bottom:10px;width:2px;border-radius:2px;
+    background:linear-gradient(180deg,var(--gold),var(--pink) 52%,var(--cyan));opacity:.6}
+  .tl .item{position:relative;margin-bottom:30px}
+  .tl .item:last-child{margin-bottom:0}
+  .tl .item::before{content:"";position:absolute;left:-36px;top:5px;width:15px;height:15px;border-radius:50%;
+    background:var(--gold);box-shadow:0 0 16px rgba(246,193,119,.85)}
+  .tl .item.dev::before{background:var(--cyan);box-shadow:0 0 16px rgba(103,232,249,.85)}
+  .tl .when{font-family:var(--mono);font-size:12px;letter-spacing:.2em;color:var(--gold)}
+  .tl .item.dev .when{color:var(--cyan)}
+  .tl h3{margin:6px 0 6px;font-family:var(--serif);font-size:20px;font-weight:600}
+  .tl p{margin:0;color:var(--dim);font-size:14.8px;max-width:70ch}
+
+  /* conquistas */
+  .certs{display:grid;gap:14px;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));margin-top:26px}
+  .cert{display:flex;gap:14px;align-items:flex-start;border:1px solid var(--line);border-radius:15px;padding:16px 18px;
+    background:linear-gradient(160deg,rgba(30,16,60,.62),rgba(10,6,26,.5));transition:.35s}
+  .cert:hover{transform:translateY(-4px);border-color:rgba(246,193,119,.42)}
+  .cert .em{font-size:20px;line-height:1}
+  .cert b{display:block;font-size:14.6px;margin-bottom:4px}
+  .cert i{font-family:var(--mono);font-size:11.4px;letter-spacing:.12em;color:var(--gold);font-style:normal}
+
+  /* perfil pessoal */
+  .personal{display:grid;gap:18px;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));margin-top:26px}
+  .fact{border-left:2px solid rgba(246,193,119,.45);padding:2px 0 2px 16px}
+  .fact b{display:block;font-family:var(--mono);font-size:11.4px;letter-spacing:.2em;color:var(--gold);
+    text-transform:uppercase;margin-bottom:7px}
+  .fact p{margin:0;color:#cfc7e8;font-size:14.6px}
+
   /* chuva de runas (easter egg: aperte R) */
   .rune-fall{position:fixed;top:-8vh;z-index:70;pointer-events:none;font-size:22px;color:var(--gold);
     text-shadow:0 0 12px rgba(246,193,119,.75)}
@@ -216,9 +246,11 @@
       <b>Iasmin Nogueira</b>
     </a>
     <ul>
+      <li><a class="lnk" href="#jornada">jornada</a></li>
       <li><a class="lnk" href="#oficio">ofício</a></li>
+      <li><a class="lnk" href="#mapa">mapa</a></li>
       <li><a class="lnk" href="#artefatos">artefatos</a></li>
-      <li><a class="lnk" href="#valores">valores</a></li>
+      <li><a class="lnk" href="#perfil">perfil</a></li>
       <li><a class="lnk" href="#feitico">feitiço</a></li>
     </ul>
     <a class="ghbtn" href="https://github.com/yasameeen">github ↗</a>
@@ -231,7 +263,7 @@
       <div class="kicker">grimório · engenharia de software</div>
       <h1>Iasmin Nogueira</h1>
       <p class="typed" id="typed" aria-live="polite"><span class="cur"></span></p>
-      <p class="lede">Construo produtos de educação que aguentam sala cheia: <em>IA aplicada</em> (correção de redação, OCR, pipelines de LLM), <em>API em produção</em> e <em>interface que dá vontade de usar</em>. Gosto de sistema que explica a si mesmo — e de código que outra pessoa consegue continuar.</p>
+      <p class="lede">Passei pela <em>sala de aula</em> antes de escrever a tecnologia que roda nela — e é isso que muda como eu construo. Hoje sou dev <em>fullstack</em> em edtech: <em>IA aplicada</em> (correção de redação, OCR, pipelines de LLM e agentes), <em>dados</em> que viram decisão e <em>API em produção</em> atrás de tudo. Front, back, produto e hierarquia visual no mesmo dia.</p>
       <div class="cta">
         <a class="btn primary" href="#artefatos">✦ abrir o grimório</a>
         <a class="btn ghost" href="https://github.com/yasameeen">ver no github ↗</a>
@@ -239,15 +271,45 @@
       <div class="chips" id="chips">
         <span class="chip">repos públicos <b>—</b></span>
         <span class="chip">seguidores <b>—</b></span>
-        <span class="chip">codando desde <b>—</b></span>
-        <span class="chip">idioma <b>pt-BR / en</b></span>
+        <span class="chip">certificações <b>4</b></span>
+        <span class="chip">base <b>Curitiba · PR</b></span>
+        <span class="chip">idiomas <b>pt-BR · en</b></span>
       </div>
     </div>
   </header>
 
+  <section id="jornada">
+    <div class="wrap">
+      <div class="sechead reveal"><span class="n">01</span><h2>De onde eu venho</h2></div>
+      <p class="sub reveal">Meu diferencial não é uma lista de frameworks: é ter estado do outro lado — na frente da turma, explicando até entender. Isso virou requisito de engenharia.</p>
+      <div class="tl reveal">
+        <div class="item">
+          <span class="when">2021 — 2023</span>
+          <h3>Colégio Sesi da Indústria</h3>
+          <p>Ensino médio. Onde a curiosidade ficou séria e onde eu descobri que gostava de explicar coisa difícil sem enrolar.</p>
+        </div>
+        <div class="item">
+          <span class="when">2023 — 2024</span>
+          <h3>Professora de inglês · CNA+</h3>
+          <p>Turma de verdade, ritmo de verdade. Aprendi a checar entendimento em vez de assumir que o conteúdo passou — hoje faço o mesmo com produto, com tela e com código.</p>
+        </div>
+        <div class="item dev">
+          <span class="when">2024 — hoje</span>
+          <h3>Análise e Desenvolvimento de Sistemas · PUCPR</h3>
+          <p>Base formal — estrutura de dados, sistemas, engenharia — para uma prática que já estava acontecendo no dia a dia.</p>
+        </div>
+        <div class="item dev">
+          <span class="when">2025 — hoje</span>
+          <h3>Dev fullstack · Expandel</h3>
+          <p>Edtech com IA: correção automática de redação, OCR de folha de respostas, painéis de desempenho e a API em produção que sustenta tudo. Vue 3 no front, .NET/C# no back, Firebase, Postgres e GCP no meio.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
   <section id="oficio">
     <div class="wrap">
-      <div class="sechead reveal"><span class="n">01</span><h2>Constelação de ofício</h2></div>
+      <div class="sechead reveal"><span class="n">02</span><h2>Constelação de ofício</h2></div>
       <p class="sub reveal">O que eu uso em produção e o que sustenta o trabalho de todos os dias. Nada de lista decorativa: isso aqui é o que aparece nos meus commits.</p>
       <div class="grid g3">
         <div class="card reveal">
@@ -308,9 +370,24 @@
     </div>
   </section>
 
+  <section id="mapa">
+    <div class="wrap">
+      <div class="sechead reveal"><span class="n">03</span><h2>Mapa de ofício &amp; conquistas</h2></div>
+      <p class="sub reveal">Auto-avaliação honesta dos eixos em que eu trabalho — e o que sustenta cada um deles. Nada de selo decorativo: certificação com data e origem.</p>
+      <img class="reveal" src="assets/radar.svg" alt="mapa de ofício" style="width:100%;border-radius:18px;margin-bottom:26px">
+      <img class="reveal" src="assets/conquistas.svg" alt="conquistas e certificações" style="width:100%;border-radius:18px">
+      <div class="certs">
+        <div class="cert reveal"><span class="em">🧠</span><div><b>AI Fluency: Framework &amp; Foundations</b><i>Anthropic · jun/2026</i></div></div>
+        <div class="cert reveal"><span class="em">🧠</span><div><b>AI Fluency: Capabilities &amp; Limitations</b><i>Anthropic · jun/2026</i></div></div>
+        <div class="cert reveal"><span class="em">⚡</span><div><b>Claude 101</b><i>Anthropic · jun/2026</i></div></div>
+        <div class="cert reveal"><span class="em">🧩</span><div><b>Design Thinking</b><i>The Open University · ago/2026</i></div></div>
+      </div>
+    </div>
+  </section>
+
   <section id="artefatos">
     <div class="wrap">
-      <div class="sechead reveal"><span class="n">02</span><h2>Artefatos</h2></div>
+      <div class="sechead reveal"><span class="n">04</span><h2>Artefatos</h2></div>
       <p class="sub reveal">O que dá para mostrar em público — e o que só existe dentro do produto. Os cards puxam dados reais da API do GitHub quando a página abre.</p>
       <div class="grid g2" id="repos">
         <div class="card"><div class="repo"><span class="nm">carregando artefatos…</span></div></div>
@@ -320,7 +397,7 @@
 
   <section id="valores">
     <div class="wrap">
-      <div class="sechead reveal"><span class="n">03</span><h2>O que eu valorizo</h2></div>
+      <div class="sechead reveal"><span class="n">05</span><h2>O que eu valorizo</h2></div>
       <p class="sub reveal">Quatro runas que eu carrego em qualquer projeto — vale mais que qualquer badge de tecnologia.</p>
       <div class="grid g4">
         <div class="card rune reveal">
@@ -347,9 +424,34 @@
     </div>
   </section>
 
+  <section id="perfil">
+    <div class="wrap">
+      <div class="sechead reveal"><span class="n">06</span><h2>Quem está por trás</h2></div>
+      <p class="sub reveal">Quatro coisas que explicam como eu trabalho melhor do que qualquer lista de tecnologia.</p>
+      <div class="personal">
+        <div class="fact reveal">
+          <b>base</b>
+          <p>Curitiba, Paraná — construindo produto educacional que roda em escola de verdade, com internet de verdade e professor sem tempo de verdade.</p>
+        </div>
+        <div class="fact reveal">
+          <b>idiomas</b>
+          <p>Português nativo e inglês de ofício: dei aula de inglês antes de programar, então leio documentação, escrevo issue e converso com API em inglês sem tradutor.</p>
+        </div>
+        <div class="fact reveal">
+          <b>formação</b>
+          <p>Tecnólogo em Análise e Desenvolvimento de Sistemas na PUCPR (cursando) — a educação é o fio condutor do que eu faço, não um desvio de rota.</p>
+        </div>
+        <div class="fact reveal">
+          <b>como eu trabalho</b>
+          <p>Problema antes de solução (Design Thinking na prática), explicação clara como requisito, automação do que é repetitivo e uma teimosia saudável com acabamento visual.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
   <section id="feitico">
     <div class="wrap">
-      <div class="sechead reveal"><span class="n">04</span><h2>Feitiço de sexta-feira</h2></div>
+      <div class="sechead reveal"><span class="n">07</span><h2>Feitiço de sexta-feira</h2></div>
       <p class="sub reveal">Como um trabalho grande costuma acontecer comigo: eu desenho o plano, convoco agentes, reviso o que volta.</p>
       <div class="term reveal">
         <div class="bar-top"><span></span><span></span><span></span><i>~/grimorio — zsh</i></div>
@@ -378,7 +480,7 @@
       </div>
     </div>
     <div class="wrap">
-      <div class="en"><b>EN ·</b> Software engineer working on AI applied to education: essay grading, answer-sheet OCR, LLM pipelines and agent orchestration. Vue 3 · Vite · .NET/C# · Firebase · Postgres · GCP · Docker. I care about clarity, visual craft and automating the boring parts.</div>
+      <div class="en"><b>EN ·</b> Full-stack developer with a teaching background — I was a classroom teacher before writing the software that runs in the classroom. Today: AI applied to education (essay grading, answer-sheet OCR, LLM pipelines, agent orchestration), data that turns into decisions, and the production API behind it all. Vue 3 · Vite · .NET/C# · Firebase · Postgres · GCP · Docker. Anthropic-certified on AI fluency.</div>
     </div>
   </footer>
 </main>
@@ -556,14 +658,13 @@
   const chips = document.getElementById("chips");
   function setChips(p){
     if (!p) return;
-    const since = p.created_at ? new Date(p.created_at).getFullYear() : null;
-    const vals = [p.public_repos, p.followers, since ? "20" + String(since).slice(2) : "—"];
+    const vals = [p.public_repos, p.followers];
     chips.querySelectorAll(".chip b").forEach((b,i) => { if (vals[i] != null) b.textContent = vals[i]; });
   }
 
   fetch("https://api.github.com/users/" + USER)
     .then(r => r.ok ? r.json() : Promise.reject(r.status))
-    .then(setChips).catch(() => setChips({public_repos:2, followers:1, created_at:"2023-08-25"}));
+    .then(setChips).catch(() => setChips({public_repos:2, followers:1}));
 
   fetch("https://api.github.com/users/" + USER + "/repos?per_page=100&sort=updated")
     .then(r => r.ok ? r.json() : Promise.reject(r.status))

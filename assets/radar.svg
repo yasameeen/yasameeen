@@ -1,0 +1,99 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 580" width="1280" height="580" role="img" aria-label="mapa de ofício: IA, dados, front-end, back-end, produto e cloud">
+  <title>Mapa de ofício</title>
+  <defs>
+    <linearGradient id="rbg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0a0518"/><stop offset="60%" stop-color="#0e0722"/><stop offset="100%" stop-color="#0b0b24"/>
+    </linearGradient>
+    <radialGradient id="rh" cx="0.5" cy="0.45" r="0.6">
+      <stop offset="0%" stop-color="#7c3aed" stop-opacity="0.30"/><stop offset="100%" stop-color="#7c3aed" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="rfill" x1="0" y1="1" x2="1" y2="0">
+      <stop offset="0%" stop-color="#f6c177" stop-opacity="0.52"/>
+      <stop offset="45%" stop-color="#a855f7" stop-opacity="0.40"/>
+      <stop offset="100%" stop-color="#67e8f9" stop-opacity="0.48"/>
+    </linearGradient>
+    <linearGradient id="rstroke" gradientUnits="userSpaceOnUse" x1="500" y1="300" x2="790" y2="300">
+      <stop offset="0%" stop-color="#f6c177"/><stop offset="50%" stop-color="#e879f9"/><stop offset="100%" stop-color="#67e8f9"/>
+    </linearGradient>
+    <filter id="rglow" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="5" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <clipPath id="rc"><rect width="1280" height="580" rx="18"/></clipPath>
+  </defs>
+
+  <g clip-path="url(#rc)">
+    <rect width="1280" height="580" fill="url(#rbg)"/>
+    <rect width="1280" height="580" fill="url(#rh)"/>
+    <g stroke="#a78bfa" stroke-opacity="0.06"><path d="M0 200 H1280 M0 306 H1280 M0 420 H1280 M320 0 V580 M640 0 V580 M960 0 V580"/></g>
+    <text x="64" y="50" font-family="ui-monospace,SFMono-Regular,'JetBrains Mono',Menlo,Consolas,monospace" font-size="14" letter-spacing="4" fill="#f6c177">✦ MAPA DE OFÍCIO — AUTO-AVALIAÇÃO HONESTA</text>
+
+    <!-- radar hexagonal: centro (640,306) · raio máx 148 -->
+    <g transform="translate(640,306)">
+      <g fill="none" stroke="#a78bfa" stroke-opacity="0.16" stroke-width="1">
+        <path d="M0 -148 L128.2 -74 L128.2 74 L0 148 L-128.2 74 L-128.2 -74 Z"/>
+        <path d="M0 -111 L96.1 -55.5 L96.1 55.5 L0 111 L-96.1 55.5 L-96.1 -55.5 Z"/>
+        <path d="M0 -74 L64.1 -37 L64.1 37 L0 74 L-64.1 37 L-64.1 -37 Z"/>
+        <path d="M0 -37 L32 -18.5 L32 18.5 L0 37 L-32 18.5 L-32 -18.5 Z" stroke-opacity="0.10"/>
+      </g>
+      <g stroke="#a78bfa" stroke-opacity="0.22" stroke-width="1">
+        <path d="M0 0 L0 -148 M0 0 L128.2 -74 M0 0 L128.2 74 M0 0 L0 148 M0 0 L-128.2 74 M0 0 L-128.2 -74"/>
+      </g>
+
+      <!-- varredura (sutil) -->
+      <g opacity="0.35">
+        <path d="M0 0 L0 -148 A148 148 0 0 1 128.2 -74 Z" fill="#a855f7" opacity="0.14"/>
+        <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="11s" repeatCount="indefinite"/>
+      </g>
+
+      <!-- polígono: IA 9.2 · dados 8.4 · front 9.4 · back 8.6 · produto 8.8 · cloud 8.2 -->
+      <path d="M0 -136.2 L107.7 -62.2 L120.5 69.6 L0 127.3 L-112.8 65.1 L-105.1 -60.7 Z"
+            fill="url(#rfill)" stroke="url(#rstroke)" stroke-width="2.2" stroke-linejoin="round" filter="url(#rglow)">
+        <animateTransform attributeName="transform" type="scale" from="0" to="1" dur="1.5s" begin="0.4s" fill="freeze" calcMode="spline" keySplines="0.2 0.85 0.2 1"/>
+      </path>
+      <g fill="#fde68a">
+        <circle cx="0" cy="-136.2" r="4"><animate attributeName="r" values="3.4;5;3.4" dur="4.6s" repeatCount="indefinite"/></circle>
+        <circle cx="107.7" cy="-62.2" r="4"><animate attributeName="r" values="3.4;5;3.4" dur="5.2s" begin="0.6s" repeatCount="indefinite"/></circle>
+        <circle cx="120.5" cy="69.6" r="4"><animate attributeName="r" values="3.4;5;3.4" dur="4.9s" begin="1.1s" repeatCount="indefinite"/></circle>
+        <circle cx="0" cy="127.3" r="4"><animate attributeName="r" values="3.4;5;3.4" dur="5.6s" begin="1.5s" repeatCount="indefinite"/></circle>
+        <circle cx="-112.8" cy="65.1" r="4"><animate attributeName="r" values="3.4;5;3.4" dur="4.4s" begin="2s" repeatCount="indefinite"/></circle>
+        <circle cx="-105.1" cy="-60.7" r="4"><animate attributeName="r" values="3.4;5;3.4" dur="5.1s" begin="2.4s" repeatCount="indefinite"/></circle>
+      </g>
+      <circle r="3" fill="#e879f9" filter="url(#rglow)"><animate attributeName="r" values="2.4;4;2.4" dur="3.8s" repeatCount="indefinite"/></circle>
+    </g>
+
+    <!-- rótulos (dentro do painel, sem colisão com título ou rodapé) -->
+    <g font-family="ui-monospace,SFMono-Regular,'JetBrains Mono',Menlo,Consolas,monospace" text-anchor="middle">
+      <g transform="translate(640,132)">
+        <text y="0" font-size="15.5" fill="#fef3c7" font-family="'Iowan Old Style',Palatino,Georgia,serif">IA aplicada</text>
+        <text y="20" font-size="12.5" fill="#f6c177">9.2 · pipelines de LLM, OCR, agentes</text>
+      </g>
+      <g transform="translate(880,196)">
+        <text y="0" font-size="15.5" fill="#ede9fe" font-family="'Iowan Old Style',Palatino,Georgia,serif">Dados &amp; analytics</text>
+        <text y="20" font-size="12.5" fill="#c4b5fd">8.4 · postgres, modelagem, painéis</text>
+      </g>
+      <g transform="translate(880,432)">
+        <text y="0" font-size="15.5" fill="#e0fbff" font-family="'Iowan Old Style',Palatino,Georgia,serif">Front-end</text>
+        <text y="20" font-size="12.5" fill="#67e8f9">9.4 · vue 3, vite, design system</text>
+      </g>
+      <g transform="translate(640,498)">
+        <text y="0" font-size="15.5" fill="#ede9fe" font-family="'Iowan Old Style',Palatino,Georgia,serif">Back-end &amp; APIs</text>
+        <text y="20" font-size="12.5" fill="#c4b5fd">8.6 · .net/c#, node, integrações</text>
+      </g>
+      <g transform="translate(400,432)">
+        <text y="0" font-size="15.5" fill="#fef3c7" font-family="'Iowan Old Style',Palatino,Georgia,serif">Produto &amp; UX/UI</text>
+        <text y="20" font-size="12.5" fill="#f6c177">8.8 · instinto de produto, hierarquia visual</text>
+      </g>
+      <g transform="translate(392,196)">
+        <text y="0" font-size="15.5" fill="#e0fbff" font-family="'Iowan Old Style',Palatino,Georgia,serif">Cloud &amp; entrega</text>
+        <text y="20" font-size="12.5" fill="#67e8f9">8.2 · gcp, docker, ci</text>
+      </g>
+    </g>
+
+    <text x="64" y="548" font-family="ui-monospace,SFMono-Regular,'JetBrains Mono',Menlo,Consolas,monospace" font-size="12.5" letter-spacing="1.6" fill="#8b81ad">
+      o eixo que ninguém programa: <tspan fill="#f6c177">ensinar</tspan> — explicação clara é requisito de engenharia, não enfeite.
+    </text>
+    <text x="1216" y="548" font-family="ui-monospace,SFMono-Regular,'JetBrains Mono',Menlo,Consolas,monospace" font-size="12" letter-spacing="2.4" fill="#8b81ad" text-anchor="end">escala 0–10</text>
+  </g>
+  <rect x="0.5" y="0.5" width="1279" height="579" rx="18" fill="none" stroke="#a78bfa" stroke-opacity="0.26"/>
+</svg>

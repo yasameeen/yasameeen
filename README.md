@@ -1,27 +1,52 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/yasameeen/yasameeen/main/assets/hero.svg" alt="Iasmin Nogueira — engenheira de software: IA, agentes e edtech" width="100%">
+<img src="https://raw.githubusercontent.com/yasameeen/yasameeen/main/assets/hero.svg" alt="Iasmin Nogueira — dev fullstack em edtech: IA, dados e produto" width="100%">
 
 <br>
 
-<a href="https://github.com/yasameeen?tab=repositories"><img src="https://img.shields.io/badge/IA%20aplicada-pipelines%20de%20LLM%20%C2%B7%20OCR%20%C2%B7%20agentes-7c3aed?style=flat-square&labelColor=0d0620" alt="IA aplicada"></a>
-<a href="#-artefatos"><img src="https://img.shields.io/badge/edtech-em%20produ%C3%A7%C3%A3o-f6c177?style=flat-square&labelColor=0d0620" alt="edtech em produção"></a>
-<img src="https://img.shields.io/badge/stack-vue%203%20%C2%B7%20vite%20%C2%B7%20.net%20%C2%B7%20firebase%20%C2%B7%20postgres%20%C2%B7%20gcp-67e8f9?style=flat-square&labelColor=0d0620" alt="stack">
-<img src="https://img.shields.io/badge/idiomas-pt--BR%20%7C%20en-a78bfa?style=flat-square&labelColor=0d0620" alt="idiomas">
+<a href="#-de-onde-eu-venho"><img src="https://img.shields.io/badge/da%20sala%20de%20aula-para%20a%20engenharia-7c3aed?style=flat-square&labelColor=0d0620" alt="da sala de aula para a engenharia"></a>
+<a href="#-artefatos"><img src="https://img.shields.io/badge/IA%20aplicada-pipelines%20de%20LLM%20%C2%B7%20OCR%20%C2%B7%20agentes-e879f9?style=flat-square&labelColor=0d0620" alt="IA aplicada"></a>
+<img src="https://img.shields.io/badge/dados-postgres%20%C2%B7%20modelagem%20%C2%B7%20pain%C3%A9is-67e8f9?style=flat-square&labelColor=0d0620" alt="dados">
+<img src="https://img.shields.io/badge/fullstack-vue%203%20%C2%B7%20.net%2Fc%23%20%C2%B7%20firebase%20%C2%B7%20gcp-a78bfa?style=flat-square&labelColor=0d0620" alt="fullstack">
+<img src="https://img.shields.io/badge/Anthropic-AI%20Fluency%20certified-f6c177?style=flat-square&labelColor=0d0620" alt="Anthropic AI Fluency">
 
 </div>
 
-Eu construo produtos de educação que aguentam sala cheia — **correção automática de redação, OCR de folha de respostas, pipelines de LLM, painéis de desempenho** — e a API em produção que existe atrás de tudo isso. Gosto de sistema que explica a si mesmo, de interface que dá vontade de usar e de código que a próxima pessoa consegue continuar.
+**Eu vim da sala de aula.** Fui professora de inglês antes de virar desenvolvedora — e essa é a parte do meu currículo que mais aparece no meu código: explicar até entender, checar entendimento em vez de assumir, e construir para quem **não tem tempo** de aprender a usar.
+
+Hoje sou dev **fullstack** em edtech: **IA aplicada** (correção automática de redação, OCR de folha de respostas, pipelines de LLM e agentes), **dados** que viram decisão de professor, **produto** com hierarquia visual pensada, e a API em produção que sustenta tudo isso.
 
 <div align="center"><img src="https://raw.githubusercontent.com/yasameeen/yasameeen/main/assets/divider.svg" width="100%" alt="✦"></div>
 
-## ✦ constelação de ofício
+## 🧭 de onde eu venho
 
-<img src="https://raw.githubusercontent.com/yasameeen/yasameeen/main/assets/stack.svg" width="100%" alt="Vue 3, Vite, .NET/C#, Postgres, GCP, Firebase, Docker, LLM e agentes, Python, TypeScript, CI">
+<img src="https://raw.githubusercontent.com/yasameeen/yasameeen/main/assets/jornada.svg" width="100%" alt="linha do tempo: Colégio Sesi 2021-2023, professora de inglês no CNA+ 2023-2024, ADS na PUCPR 2024-hoje, dev fullstack na Expandel 2025-hoje">
+
+A mesma pergunta de sala de aula, agora em código: **o aluno entendeu?**
+
+<div align="center"><img src="https://raw.githubusercontent.com/yasameeen/yasameeen/main/assets/divider.svg" width="100%" alt="✦"></div>
+
+## ⚡ mapa de ofício
+
+<img src="https://raw.githubusercontent.com/yasameeen/yasameeen/main/assets/radar.svg" width="100%" alt="mapa de ofício: IA aplicada, dados e analytics, front-end, back-end e APIs, produto e UX/UI, cloud e entrega">
+
+<div align="center"><img src="https://raw.githubusercontent.com/yasameeen/yasameeen/main/assets/divider.svg" width="100%" alt="✦"></div>
+
+## 🏅 conquistas
+
+<img src="https://raw.githubusercontent.com/yasameeen/yasameeen/main/assets/conquistas.svg" width="100%" alt="conquistas: certificações Anthropic, Design Thinking, professora de inglês, ADS na PUCPR, IA em produção na educação">
+
+- **AI Fluency: Framework & Foundations** — Anthropic · jun/2026
+- **AI Fluency: Capabilities & Limitations** — Anthropic · jun/2026
+- **Claude 101** — Anthropic · jun/2026
+- **Design Thinking** — The Open University · ago/2026
+- **Tecnólogo em Análise e Desenvolvimento de Sistemas** — PUCPR · cursando
 
 <div align="center"><img src="https://raw.githubusercontent.com/yasameeen/yasameeen/main/assets/divider.svg" width="100%" alt="✦"></div>
 
 ## 🔮 artefatos
+
+<img src="https://raw.githubusercontent.com/yasameeen/yasameeen/main/assets/stack.svg" width="100%" alt="Vue 3, Vite, .NET/C#, Postgres, GCP, Firebase, Docker, LLM e agentes, Python, TypeScript, CI">
 
 | | artefato | o que é |
 |---|:---:|---|
@@ -65,7 +90,7 @@ Nada de badge de vaidade com número decorativo: os dois painéis abaixo são **
 
 <br><br>
 
-<sub>HTML, CSS e JS escritos à mão — céu de estrelas em canvas, constelação que segue o mouse,<br>dados vivos da API do GitHub e runas caindo se você apertar <kbd>R</kbd>.</sub>
+<sub>HTML, CSS e JS escritos à mão — céu de estrelas em canvas, constelação que segue o mouse,<br>linha do tempo da minha virada de carreira, dados vivos da API do GitHub e runas caindo se você apertar <kbd>R</kbd>.</sub>
 
 </div>
 
@@ -75,7 +100,7 @@ Nada de badge de vaidade com número decorativo: os dois painéis abaixo são **
 
 <div align="center">
 
-**EN ·** Software engineer working on AI applied to education: essay grading, answer-sheet OCR, LLM pipelines and agent orchestration. Vue 3 · Vite · .NET/C# · Firebase · Postgres · GCP · Docker. I care about clarity, visual craft, and automating the boring parts.
+**EN ·** I came from the classroom: I taught English before writing the software that runs in classrooms. Today I'm a **full-stack developer** in edtech — **AI applied to education** (essay grading, answer-sheet OCR, LLM pipelines, agent orchestration), **data** that turns into teaching decisions, **product & UI** with real visual hierarchy, and the production API behind it all. Vue 3 · Vite · .NET/C# · Firebase · Postgres · GCP · Docker. Anthropic-certified on AI fluency; studying Systems Analysis and Development at PUCPR.
 
 <sub>feito à mão ✦ sem template, sem gerador de currículo</sub>
 
