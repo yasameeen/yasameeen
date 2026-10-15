@@ -173,7 +173,7 @@ My journey gives me a rare perspective: I understand both the technical and the 
 
 # 📊 Achievements
 
-<img src="https://raw.githubusercontent.com/yasameen/yasameeen/main/assets/achievements-panel.svg" width="100%" alt="600k+ active users, 2 education systems, #1 in device and print management, Google Editor's Choice">
+<img src="https://raw.githubusercontent.com/yasameen/yasameeen/main/assets/achievements-panel.png" width="100%" alt="600k+ active users, 2 education systems, #1 in device and print management, Google Editor's Choice">
 
 </div>
 
