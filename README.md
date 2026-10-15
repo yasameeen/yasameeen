@@ -119,9 +119,9 @@ My journey gives me a rare perspective: I understand both the technical and the 
 # Contributions
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/yasameeen/yasameeen/main/output/github-snake-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/yasameeen/yasameeen/main/output/github-snake.svg">
-  <img alt="Snake animation eating my contribution graph" src="https://raw.githubusercontent.com/yasameeen/yasameeen/main/output/github-snake.svg" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/yasameeen/yasameeen/output/github-snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/yasameeen/yasameeen/output/github-snake.svg">
+  <img alt="Snake animation eating my contribution graph" src="https://raw.githubusercontent.com/yasameeen/yasameeen/output/github-snake.svg" width="100%">
 </picture>
 
 </div>
