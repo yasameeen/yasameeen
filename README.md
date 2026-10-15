@@ -201,8 +201,6 @@ My journey gives me a rare perspective: I understand both the technical and the 
 </div>
 
 
-<br>
-
 <div align="center">
 
 # 🦋 Quote
