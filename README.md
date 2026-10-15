@@ -10,13 +10,13 @@ As a Full Stack Developer with a product instinct, I build AI, data and full-sta
 
 My journey gives me a rare perspective: I understand both the technical and the human side of a product, and that is why I deliver more than systems, I deliver solutions that truly work for the people using them. Fluent in English, I move easily through global documentation and international collaborations, making sure technological innovation walks together with real impact.
 
+---
+
 <div align="center">
 
-# Contact me!
+# 🤝 Let's Connect
 
-<a href="https://github.com/yasameeen"><img src="https://img.shields.io/badge/GitHub-yasameeen-7c3aed?style=for-the-badge&logo=github&logoColor=white&labelColor=0d0620" alt="GitHub"></a>
-<a href="https://www.linkedin.com/in/iasmin-victoria-nogueira-a001522ab/"><img src="https://img.shields.io/badge/LinkedIn-Iasmin%20Nogueira-0a66c2?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0d0620" alt="LinkedIn"></a>
-<a href="mailto:victoriaiasmin70@gmail.com"><img src="https://img.shields.io/badge/Gmail-victoriaiasmin70-EA4335?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0d0620" alt="Gmail"></a>
+<a href="https://github.com/yasameeen"><img src="https://raw.githubusercontent.com/yasameeen/yasameeen/main/icons/github.svg" width="46" alt="GitHub" title="GitHub"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://www.linkedin.com/in/iasmin-victoria-nogueira-a001522ab/"><img src="https://raw.githubusercontent.com/yasameeen/yasameeen/main/icons/linkedin.svg" width="46" alt="LinkedIn" title="LinkedIn"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="mailto:victoriaiasmin70@gmail.com"><img src="https://raw.githubusercontent.com/yasameeen/yasameeen/main/icons/gmail.svg" width="46" alt="Gmail" title="victoriaiasmin70@gmail.com"></a>
 
 </div>
 
@@ -24,7 +24,7 @@ My journey gives me a rare perspective: I understand both the technical and the 
 
 <div align="center">
 
-# Languages &amp; Tools
+# 💻 Tech Stack
 
 <img src="https://raw.githubusercontent.com/yasameeen/yasameeen/main/icons/typescript.svg" width="46" alt="TypeScript" title="TypeScript">
 &nbsp;
@@ -82,7 +82,7 @@ My journey gives me a rare perspective: I understand both the technical and the 
 
 <div align="center">
 
-# My values
+# 🔐 Professional Values
 
 </div>
 
@@ -101,9 +101,16 @@ My journey gives me a rare perspective: I understand both the technical and the 
 
 <div align="center">
 
-# My results
+# 📊 Achievements
 
-<img src="https://raw.githubusercontent.com/yasameeen/yasameeen/main/assets/results-card.svg" width="520" alt="My results in numbers: 600k+ active users, 2 education systems, number one device and print management, Google Editors Choice, anti-cheat hardened on ENEM mock exams, AI in production, LGPD and MEC aware">
+<table>
+  <tr>
+    <td align="center" width="25%"><br><img src="https://raw.githubusercontent.com/yasameeen/yasameeen/main/icons/metric-users.svg" width="52" alt="active users"><br><h2>600k+</h2><sub><b>active users</b><br>across every platform I work on</sub><br><br></td>
+    <td align="center" width="25%"><br><img src="https://raw.githubusercontent.com/yasameeen/yasameeen/main/icons/metric-education.svg" width="52" alt="education systems"><br><h2>2</h2><sub><b>education systems</b><br>MEC (Brazil) and MEDUCA (Panama)</sub><br><br></td>
+    <td align="center" width="25%"><br><img src="https://raw.githubusercontent.com/yasameeen/yasameeen/main/icons/metric-devices.svg" width="52" alt="device and print management"><br><h2>#1</h2><sub><b>device and print management</b><br>won public tenders</sub><br><br></td>
+    <td align="center" width="25%"><br><img src="https://raw.githubusercontent.com/yasameeen/yasameeen/main/icons/metric-google.svg" width="52" alt="Google Editors Choice"><br><h2>Editors' Choice</h2><sub><b>Google seal</b><br>on our AI education platform</sub><br><br></td>
+  </tr>
+</table>
 
 </div>
 
@@ -116,12 +123,22 @@ My journey gives me a rare perspective: I understand both the technical and the 
 
 <div align="center">
 
-# Contributions
+# ⭐ Contributions
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/yasameeen/yasameeen/output/github-snake-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/yasameeen/yasameeen/output/github-snake.svg">
   <img alt="Snake animation eating my contribution graph" src="https://raw.githubusercontent.com/yasameeen/yasameeen/output/github-snake.svg" width="100%">
 </picture>
+
+</div>
+
+---
+
+<div align="center">
+
+# 🦋 Quote
+
+*"No one is too old for fairy tales! 💫"*
 
 </div>
