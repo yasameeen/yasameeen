@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 78" width="900" height="78" role="img"
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 58" width="900" height="58" role="img"
      aria-label="No one is too old for fairy tales!">
   <title>No one is too old for fairy tales!</title>
-  <text x="450" y="50" text-anchor="middle" font-family="'Segoe UI',Ubuntu,'Helvetica Neue',Helvetica,Arial,sans-serif" font-size="31" font-weight="600"
-        fill="#e6edf3" letter-spacing="0.5">&#8220;NO ONE IS TOO OLD FOR FAIRY TALES! <tspan font-size="27">&#128171;</tspan>&#8221;</text>
+  <text x="450" y="38" text-anchor="middle" font-family="'Segoe UI',Ubuntu,'Helvetica Neue',Helvetica,Arial,sans-serif" font-size="21" font-style="italic"
+        fill="#c9d1d9" letter-spacing="0.4">&#8220;NO ONE IS TOO OLD FOR FAIRY TALES! <tspan font-size="18">&#128171;</tspan>&#8221;</text>
 </svg>
