@@ -105,3 +105,5 @@ Nada de badge de vaidade com número decorativo: os dois painéis abaixo são **
 <sub>feito à mão ✦ sem template, sem gerador de currículo</sub>
 
 </div>
+
+<!-- perfil e assets mantidos por scripts/generate_assets.py + GitHub Action -->
