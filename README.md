@@ -6,21 +6,21 @@
 
 ---
 
+<table>
+  <tr>
+    <td width="36%" align="center" valign="middle">
+      <img src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExNmNia2RxejdkaWd1b2lsNG9wOXprY2Q5aDRwZmZwb3FwazNxbDhoYiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/rhtlzUtAzhh2SujF7v/giphy.gif" width="100%" alt="Tux, the Linux penguin, typing on an old computer">
+    </td>
+    <td width="64%" valign="top">
+      <p>I build AI, data and full-stack products that schools in Brazil and Latin America use every day, reaching <b>600k+ active students</b>.</p>
+      <p>As a Full Stack Developer with a natural product instinct, I bridge the gap between intuitive interface design, intelligent data architectures and ecosystem automations, always focused on transforming complex business rules into high-performance, human-centered solutions.</p>
+      <p>My background gives me a rare perspective: I understand both the technical and the human side of a product, which means I don't just build systems, but solutions that actually work for the people using them.</p>
+      <p>Fluent in English, I navigate global documentation and international collaborations with ease, ensuring that technological innovation goes hand in hand with real-world impact.</p>
+    </td>
+  </tr>
+</table>
+
 <div align="center">
-
-I build AI, data and full-stack products that schools in Brazil and Latin America use every day, reaching <b>600k+ active students</b>.
-
-As a Full Stack Developer with a natural product instinct, I bridge the gap between intuitive interface design, intelligent data architectures and ecosystem automations, always focused on transforming complex business rules into high-performance, human-centered solutions.
-
-My background gives me a rare perspective: I understand both the technical and the human side of a product, which means I don't just build systems, but solutions that actually work for the people using them.
-
-Fluent in English, I navigate global documentation and international collaborations with ease, ensuring that technological innovation goes hand in hand with real-world impact.
-
-<br>
-
-<img src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExNmNia2RxejdkaWd1b2lsNG9wOXprY2Q5aDRwZmZwb3FwazNxbDhoYiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/rhtlzUtAzhh2SujF7v/giphy.gif" width="58%" alt="Tux, the Linux penguin, typing on an old computer">
-
-<br><br>
 
 <a href="https://github.com/yasameeen"><img src="https://img.shields.io/badge/GitHub-yasameeen-7c3aed?style=for-the-badge&logo=github&logoColor=white&labelColor=0d0620" alt="GitHub"></a>
 <a href="https://www.linkedin.com/in/iasmin-victoria-nogueira-a001522ab/"><img src="https://img.shields.io/badge/LinkedIn-Iasmin%20Nogueira-0a66c2?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0d0620" alt="LinkedIn"></a>
