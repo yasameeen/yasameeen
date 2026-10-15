@@ -16,7 +16,7 @@ My journey gives me a rare perspective: I understand both the technical and the 
 
 # 🤝 Let's Connect
 
-<a href="https://github.com/yasameeen"><img src="https://raw.githubusercontent.com/yasameeen/yasameeen/main/icons/github.svg" width="46" alt="GitHub" title="GitHub"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://www.linkedin.com/in/iasmin-victoria-nogueira-a001522ab/"><img src="https://raw.githubusercontent.com/yasameeen/yasameeen/main/icons/linkedin.svg" width="46" alt="LinkedIn" title="LinkedIn"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="mailto:victoriaiasmin70@gmail.com"><img src="https://raw.githubusercontent.com/yasameeen/yasameeen/main/icons/gmail.svg" width="46" alt="Gmail" title="victoriaiasmin70@gmail.com"></a>
+<a href="https://github.com/yasameeen"><img src="https://raw.githubusercontent.com/yasameeen/yasameeen/main/icons/github.svg" width="46" alt="GitHub" title="GitHub"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://www.linkedin.com/in/iasmin-victoria-nogueira-a001522ab/"><img src="https://raw.githubusercontent.com/yasameeen/yasameeen/main/icons/linkedin.svg" width="46" alt="LinkedIn" title="LinkedIn"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="mailto:victoriaiasmin70@gmail.com"><img src="https://raw.githubusercontent.com/yasameeen/yasameeen/main/icons/gmail.svg" width="46" alt="Gmail" title="victoriaiasmin70@gmail.com"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://t.me/yasameeenn"><img src="https://raw.githubusercontent.com/yasameeen/yasameeen/main/icons/telegram.svg" width="46" alt="Telegram" title="@yasameeenn"></a>
 
 </div>
 
@@ -158,12 +158,12 @@ My journey gives me a rare perspective: I understand both the technical and the 
 
 <table>
   <tr>
-    <td width="50%" valign="top"><br><h3>🧱 PRODUCT ENGINEERING &amp; CLEAN CODE</h3>The final product is the result of a solid construction process. I practice Clean Code and clean architecture so the software is not only functional, but <b>readable, testable and scalable</b>.<br><br></td>
-    <td width="50%" valign="top"><br><h3>🎨 UX, AESTHETICS &amp; INTUITIVENESS</h3>Beautiful interfaces are not enough, they have to work. I reduce the user's cognitive load with fluid flows, high-fidelity design and intuitive interfaces. And I <b>personalize</b>: every client, school and student should feel the product was made for them, not adapted to them.<br><br></td>
+    <td width="50%" valign="top"><br><h2>🧱 Product Engineering &amp; Clean Code</h2>The final product is the result of a solid construction process. I practice Clean Code and clean architecture so the software is not only functional, but <b>readable, testable and scalable</b>.<br><br></td>
+    <td width="50%" valign="top"><br><h2>🎨 UX, Aesthetics &amp; Intuitiveness</h2>Beautiful interfaces are not enough, they have to work. I reduce the user's cognitive load with fluid flows, high-fidelity design and intuitive interfaces. And I <b>personalize</b>: every client, school and student should feel the product was made for them, not adapted to them.<br><br></td>
   </tr>
   <tr>
-    <td width="50%" valign="top"><br><h3>♿ INCLUSION &amp; CLARITY</h3>People-focused development: <b>accessibility (A11y)</b>, semantically correct code and transparent communication, both in the interface for the user and in the code for the team.<br><br></td>
-    <td width="50%" valign="top"><br><h3>🎯 IMPACT FIRST</h3>Technology is a means, not an end. I align technical excellence to deliver <b>real value for the person using it</b> and results for the business.<br><br></td>
+    <td width="50%" valign="top"><br><h2>♿ Inclusion &amp; Clarity</h2>People-focused development: <b>accessibility (A11y)</b>, semantically correct code and transparent communication, both in the interface for the user and in the code for the team.<br><br></td>
+    <td width="50%" valign="top"><br><h2>🎯 Impact First</h2>Technology is a means, not an end. I align technical excellence to deliver <b>real value for the person using it</b> and results for the business.<br><br></td>
   </tr>
 </table>
 
@@ -175,10 +175,10 @@ My journey gives me a rare perspective: I understand both the technical and the 
 
 <table>
   <tr>
-    <td align="center" width="25%"><br><img src="https://raw.githubusercontent.com/yasameeen/yasameeen/main/icons/metric-users.svg" width="52" alt="active users"><br><h2>600k+</h2><sub><b>active users</b><br>across every platform I work on</sub><br><br></td>
-    <td align="center" width="25%"><br><img src="https://raw.githubusercontent.com/yasameeen/yasameeen/main/icons/metric-education.svg" width="52" alt="education systems"><br><h2>2</h2><sub><b>education systems</b><br>MEC (Brazil) and MEDUCA (Panama)</sub><br><br></td>
-    <td align="center" width="25%"><br><img src="https://raw.githubusercontent.com/yasameeen/yasameeen/main/icons/metric-devices.svg" width="52" alt="device and print management"><br><h2>#1</h2><sub><b>device and print management</b><br>won public tenders</sub><br><br></td>
-    <td align="center" width="25%"><br><img src="https://raw.githubusercontent.com/yasameeen/yasameeen/main/icons/metric-google.svg" width="52" alt="Google Editor's Choice"><br><h2>Google Editor's Choice</h2><sub><b>seal</b><br>on our AI education platform</sub><br><br></td>
+    <td align="center" width="25%"><br><img src="https://raw.githubusercontent.com/yasameeen/yasameeen/main/icons/metric-users.svg" width="52" alt="active users"><br><h2>600k+</h2><div><b>active users</b><br>across every platform I work on</div><br><br><br></td>
+    <td align="center" width="25%"><br><img src="https://raw.githubusercontent.com/yasameeen/yasameeen/main/icons/metric-education.svg" width="52" alt="education systems"><br><h2>2</h2><div><b>education systems</b><br>MEC (Brazil) and MEDUCA (Panama)</div><br><br><br></td>
+    <td align="center" width="25%"><br><img src="https://raw.githubusercontent.com/yasameeen/yasameeen/main/icons/metric-devices.svg" width="52" alt="device and print management"><br><h2>#1</h2><div><b>device and print management</b><br>won public tenders</div><br><br><br></td>
+    <td align="center" width="25%"><br><img src="https://raw.githubusercontent.com/yasameeen/yasameeen/main/icons/metric-google.svg" width="52" alt="Google Editor's Choice"><br><h2>Google Editor's Choice</h2><div><b>seal</b><br>on our AI education platform</div><br><br><br></td>
   </tr>
 </table>
 
@@ -209,7 +209,7 @@ My journey gives me a rare perspective: I understand both the technical and the 
 
 # 🦋 Quote
 
-<h3>"NO ONE IS TOO OLD FOR FAIRY TALES! 💫"</h3>
+<img src="https://raw.githubusercontent.com/yasameeen/yasameeen/main/assets/quote.svg" width="100%" alt="No one is too old for fairy tales!">
 
 </div>
 
