@@ -2,11 +2,16 @@
 
 <img src="https://raw.githubusercontent.com/yasameeen/yasameeen/main/assets/border-top.svg" width="100%" alt="">
 
-<br>
+<img src="https://raw.githubusercontent.com/yasameeen/yasameeen/main/assets/hero.svg" width="100%" alt="Aurora and constellation banner">
 
-<img src="https://raw.githubusercontent.com/yasameeen/yasameeen/main/assets/hero.svg" width="100%" alt="Iasmin Nogueira — product engineer: AI in education, data and full stack">
+</div>
 
-<br>
+<h1 align="center">Iasmin Nogueira</h1>
+
+<p align="center"><b>Hello! I'm Iasmin</b> 👋 &nbsp;<sub>product engineer · AI in education · data &amp; full stack</sub><br>
+<sub>Teacher first, engineer now — 600k+ active students across Brazil and Panama.</sub></p>
+
+<div align="center">
 
 <a href="#-about-me"><img src="https://img.shields.io/badge/teacher%20first-%E2%86%92%20engineer%20now-7c3aed?style=flat-square&labelColor=0d0620" alt="teacher first, engineer now"></a>
 <a href="#-my-results"><img src="https://img.shields.io/badge/600k%2B-active%20users-f6c177?style=flat-square&labelColor=0d0620" alt="600k+ active users"></a>

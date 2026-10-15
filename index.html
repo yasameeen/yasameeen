@@ -76,12 +76,14 @@
 
   /* hero */
   .hero{position:relative;padding:86px 0 40px}
+  .banner{width:100%;display:block;border-radius:20px;margin:0 0 36px;
+    box-shadow:0 34px 90px -46px rgba(124,58,237,.9)}
+  .hello{font-family:var(--round);font-size:clamp(17px,2.2vw,21.5px);color:#e9d5ff;margin:16px 0 0;font-weight:600}
+  .kicker2{display:block;font-family:var(--mono);font-size:12px;letter-spacing:.3em;color:var(--gold);
+    margin-top:10px;font-weight:400;text-transform:uppercase}
   .kicker{font-family:var(--mono);font-size:12px;letter-spacing:.34em;text-transform:uppercase;color:var(--gold);opacity:.9}
-  h1{font-family:var(--serif);font-weight:600;font-size:clamp(44px,8.4vw,104px);line-height:.98;
-    margin:16px 0 0;letter-spacing:.02em;
-    background:linear-gradient(96deg,#fde68a 6%,#f6c177 22%,#e879f9 52%,#a78bfa 72%,#67e8f9 96%);
-    -webkit-background-clip:text;background-clip:text;color:transparent;
-    background-size:220% 100%;animation:sheen 11s ease-in-out infinite}
+  h1{font-family:var(--round);font-weight:700;font-size:clamp(48px,9vw,96px);line-height:1.04;
+    margin:6px 0 0;letter-spacing:-0.01em;color:#f8f5ff}
   @keyframes sheen{0%,100%{background-position:0% 50%}50%{background-position:100% 50%}}
   .typed{margin:20px 0 0;font-family:var(--mono);font-size:clamp(13px,1.7vw,17px);color:var(--dim);letter-spacing:.06em;min-height:1.6em}
   .typed .cur{display:inline-block;width:9px;height:1.05em;background:var(--cyan);vertical-align:-2px;
@@ -349,8 +351,9 @@
 <main id="top">
   <header class="hero">
     <div class="wrap">
-      <div class="kicker">product engineer · ai in education · 600k+ users</div>
+      <img class="banner" src="assets/hero.svg" alt="aurora and constellation banner">
       <h1>Iasmin Nogueira</h1>
+      <p class="hello"><b>Hello! I'm Iasmin</b> 👋<span class="kicker2">product engineer · ai in education · data &amp; full stack</span></p>
       <p class="typed" id="typed" aria-live="polite"><span class="cur"></span></p>
       <p class="intro">Teacher first, engineer now. I build education technology that reaches <b>600k+ active students</b> across Brazil and Panama.</p>
       <p class="intro">I started in the classroom — teaching English at CNA+ — and moved into engineering at Expandel, where I build <b>AI, data and full-stack</b> products that schools run every day. What I am going after: AI in education that is <b>obvious to use, truly inclusive and measurable</b> in learning outcomes.</p>
