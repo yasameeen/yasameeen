@@ -8,13 +8,19 @@
 
 <div align="center">
 
-I build **AI, data and full-stack products** that schools in Brazil and Latin America use every day, reaching **600k+ active students**.
+I build AI, data and full-stack products that schools in Brazil and Latin America use every day, reaching <b>600k+ active students</b>.
 
-I care about clean code, inclusive design and products measured by learning.
+As a Full Stack Developer with a natural product instinct, I bridge the gap between intuitive interface design, intelligent data architectures and ecosystem automations, always focused on transforming complex business rules into high-performance, human-centered solutions.
 
-I came from the classroom — I taught English before writing the software that runs in it — and today I work where **data architecture, UX/UI and product innovation** meet. Based in Curitiba, Brazil. Studying Systems Analysis and Development at PUCPR, Anthropic-certified on AI fluency (Framework &amp; Foundations · Capabilities &amp; Limitations · Claude 101) and Design Thinking by The Open University. Portuguese native, English professional — I taught it before I coded in it.
+My background gives me a rare perspective: I understand both the technical and the human side of a product, which means I don't just build systems, but solutions that actually work for the people using them.
+
+Fluent in English, I navigate global documentation and international collaborations with ease, ensuring that technological innovation goes hand in hand with real-world impact.
 
 <br>
+
+<img src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExNmNia2RxejdkaWd1b2lsNG9wOXprY2Q5aDRwZmZwb3FwazNxbDhoYiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/rhtlzUtAzhh2SujF7v/giphy.gif" width="58%" alt="Tux, the Linux penguin, typing on an old computer">
+
+<br><br>
 
 <a href="https://github.com/yasameeen"><img src="https://img.shields.io/badge/GitHub-yasameeen-7c3aed?style=for-the-badge&logo=github&logoColor=white&labelColor=0d0620" alt="GitHub"></a>
 <a href="https://www.linkedin.com/in/iasmin-victoria-nogueira-a001522ab/"><img src="https://img.shields.io/badge/LinkedIn-Iasmin%20Nogueira-0a66c2?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0d0620" alt="LinkedIn"></a>
@@ -83,42 +89,21 @@ I came from the classroom — I taught English before writing the software that 
 
 <div align="center">
 
-### My values
+# My values
+
+<img src="https://raw.githubusercontent.com/yasameeen/yasameeen/main/assets/values.svg" width="100%" alt="My values: product engineering and clean code, UX aesthetics and intuitiveness, inclusion and clarity, impact first">
 
 </div>
-
-<table>
-  <tr>
-    <td width="50%" valign="top"><br><b>🧱 Product Engineering &amp; Clean Code</b><br><br>The final product is the result of a solid construction process. I practice Clean Code and clean architecture so the software is not only functional, but <b>readable, testable and scalable</b>.<br><br></td>
-    <td width="50%" valign="top"><br><b>🎨 UX, Aesthetics &amp; Intuitiveness</b><br><br>Beautiful interfaces are not enough — they have to work. I reduce the user's cognitive load through fluid flows, high-fidelity design and intuitive interfaces. And I <b>personalize</b>: every client, school and student should feel the product was made for them, not adapted to them.<br><br></td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top"><br><b>♿ Inclusion &amp; Clarity</b><br><br>People-focused development: <b>accessibility (A11y)</b>, semantically correct code and transparent communication — both in the interface for the user and in the code for the team.<br><br></td>
-    <td width="50%" valign="top"><br><b>🎯 Impact First</b><br><br>Technology is a means, not an end. I align technical decisions of excellence to deliver <b>real value for the person using it</b> and results for the business.<br><br></td>
-  </tr>
-</table>
 
 ---
 
 <div align="center">
 
-### My results
+# My results
 
-<table>
-  <tr>
-    <td align="center" width="25%"><br><h2>600k+</h2><sub><b>active users</b><br>across every platform I work on</sub><br><br></td>
-    <td align="center" width="25%"><br><h2>2</h2><sub><b>education systems</b><br>MEC (Brazil) · MEDUCA (Panama)</sub><br><br></td>
-    <td align="center" width="25%"><br><h2>#1</h2><sub><b>device &amp; print management</b><br>won public tenders</sub><br><br></td>
-    <td align="center" width="25%"><br><h2>🏆</h2><sub><b>Google Editors' Choice</b><br>on our AI education platform</sub><br><br></td>
-  </tr>
-</table>
+<img src="https://raw.githubusercontent.com/yasameeen/yasameeen/main/assets/results.svg" width="100%" alt="My results: 600k+ active users, education systems aligned with MEC and MEDUCA, number one device and print management, Google Editors Choice seal, anti-cheat engineering, AI aligned with curriculum, fleet at school scale, privacy by design">
 
 </div>
-
-- 🛡️ **Anti-cheat that holds.** I hardened an offline **ENEM mock-exam** system against cheating: keyboard-command detection, F12/devtools detection and forced fullscreen-exit tracking during the exam.
-- 🎓 **AI aligned with curriculum.** I helped build an AI education platform aligned with **MEC** and **MEDUCA** for students and teachers — praised by State Departments of Education — and I ran the training sessions and presentations on it.
-- 🖥️ **Fleet at school scale.** I support **Windows, Android and ChromeOS** device management and print management platforms that won public tenders and remain our clients' **#1 choice across Brazil**.
-- 🔐 **Privacy by design.** LGPD and MEC guidelines respected in everything I ship.
 
 ---
 
@@ -127,9 +112,9 @@ I came from the classroom — I taught English before writing the software that 
 ### Contributions
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/yasameeen/yasameeen/output/github-snake-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/yasameeen/yasameeen/output/github-snake.svg">
-  <img alt="Snake animation eating my contribution graph" src="https://raw.githubusercontent.com/yasameeen/yasameeen/output/github-snake.svg" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/yasameeen/yasameeen/main/output/github-snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/yasameeen/yasameeen/main/output/github-snake.svg">
+  <img alt="Snake animation eating my contribution graph" src="https://raw.githubusercontent.com/yasameeen/yasameeen/main/output/github-snake.svg" width="100%">
 </picture>
 
 </div>
