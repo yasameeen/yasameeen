@@ -20,8 +20,6 @@ My journey gives me a rare perspective: I understand both the technical and the 
 </div>
 
 
-<br>
-
 <div align="center">
 
 # 💻 Tech Stack
@@ -169,8 +167,6 @@ My journey gives me a rare perspective: I understand both the technical and the 
 </table>
 
 
-<br>
-
 <div align="center">
 
 # 📊 Achievements
@@ -191,8 +187,6 @@ My journey gives me a rare perspective: I understand both the technical and the 
 - 🖥️ **Fleet at school scale.** I support Windows, Android and ChromeOS device management and print management platforms that won public tenders and remain our clients' number one choice across Brazil.
 - 🔐 **Privacy by design.** LGPD and MEC guidelines respected in everything I ship, from data modeling to the classroom.
 
-
-<br>
 
 <div align="center">
 
