@@ -1,5 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 420" width="1280" height="420" role="img" aria-label="conquistas e certificações">
-  <title>Conquistas</title>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 420" width="1280" height="420" role="img" aria-label="certifications and milestones">
+  <title>Certifications and milestones</title>
   <defs>
     <linearGradient id="cbg" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0%" stop-color="#0a0518"/><stop offset="55%" stop-color="#0d0620"/><stop offset="100%" stop-color="#0a0a22"/>
@@ -29,7 +29,7 @@
     <rect width="1280" height="420" fill="url(#ch1)"/>
     <rect width="1280" height="420" fill="url(#ch2)"/>
     <g stroke="#a78bfa" stroke-opacity="0.06"><path d="M0 210 H1280 M427 0 V420 M854 0 V420"/></g>
-    <text x="64" y="52" font-family="ui-monospace,SFMono-Regular,'JetBrains Mono',Menlo,Consolas,monospace" font-size="14" letter-spacing="4" fill="#f6c177">✦ CONQUISTAS — O QUE SUSTENTA O QUE EU FAÇO</text>
+    <text x="64" y="52" font-family="ui-monospace,SFMono-Regular,'JetBrains Mono',Menlo,Consolas,monospace" font-size="14" letter-spacing="4" fill="#f6c177">✦ CERTIFICATIONS &amp; MILESTONES</text>
 
     <!-- card 1 -->
     <g transform="translate(64,86)">
@@ -49,7 +49,7 @@
         </g>
       </g>
       <text x="104" y="52" font-family="'Iowan Old Style',Palatino,Georgia,serif" font-size="19" fill="#fef3c7">AI Fluency · Anthropic</text>
-      <text x="104" y="76" font-family="ui-monospace,SFMono-Regular,'JetBrains Mono',Menlo,Consolas,monospace" font-size="12.5" fill="#c9c1e6">3 certificações · jun/2026</text>
+      <text x="104" y="76" font-family="ui-monospace,SFMono-Regular,'JetBrains Mono',Menlo,Consolas,monospace" font-size="12.5" fill="#c9c1e6">3 certifications · jun/2026</text>
       <text x="104" y="94" font-family="ui-monospace,SFMono-Regular,'JetBrains Mono',Menlo,Consolas,monospace" font-size="12.5" fill="#c9c1e6">framework · capabilities · claude</text>
     </g>
 
@@ -71,8 +71,8 @@
         </g>
       </g>
       <text x="104" y="52" font-family="'Iowan Old Style',Palatino,Georgia,serif" font-size="19" fill="#fef3c7">Design Thinking</text>
-      <text x="104" y="76" font-family="ui-monospace,SFMono-Regular,'JetBrains Mono',Menlo,Consolas,monospace" font-size="12.5" fill="#c9c1e6">The Open University — ago/2026</text>
-      <text x="104" y="94" font-family="ui-monospace,SFMono-Regular,'JetBrains Mono',Menlo,Consolas,monospace" font-size="12.5" fill="#c9c1e6">problema antes de solução</text>
+      <text x="104" y="76" font-family="ui-monospace,SFMono-Regular,'JetBrains Mono',Menlo,Consolas,monospace" font-size="12.5" fill="#c9c1e6">The Open University — aug/2026</text>
+      <text x="104" y="94" font-family="ui-monospace,SFMono-Regular,'JetBrains Mono',Menlo,Consolas,monospace" font-size="12.5" fill="#c9c1e6">problem before solution</text>
     </g>
 
     <!-- card 3 -->
@@ -92,9 +92,9 @@
           </rect>
         </g>
       </g>
-      <text x="104" y="52" font-family="'Iowan Old Style',Palatino,Georgia,serif" font-size="19" fill="#fef3c7">Professora de inglês</text>
+      <text x="104" y="52" font-family="'Iowan Old Style',Palatino,Georgia,serif" font-size="19" fill="#fef3c7">English teacher</text>
       <text x="104" y="76" font-family="ui-monospace,SFMono-Regular,'JetBrains Mono',Menlo,Consolas,monospace" font-size="12.5" fill="#c9c1e6">CNA+ · 2023–2024</text>
-      <text x="104" y="94" font-family="ui-monospace,SFMono-Regular,'JetBrains Mono',Menlo,Consolas,monospace" font-size="12.5" fill="#c9c1e6">expliquei até entender de verdade</text>
+      <text x="104" y="94" font-family="ui-monospace,SFMono-Regular,'JetBrains Mono',Menlo,Consolas,monospace" font-size="12.5" fill="#c9c1e6">explained until it truly landed</text>
     </g>
 
     <!-- card 4 -->
@@ -114,9 +114,9 @@
           </rect>
         </g>
       </g>
-      <text x="104" y="52" font-family="'Iowan Old Style',Palatino,Georgia,serif" font-size="19" fill="#e0fbff">Análise e Dev. de Sistemas</text>
-      <text x="104" y="76" font-family="ui-monospace,SFMono-Regular,'JetBrains Mono',Menlo,Consolas,monospace" font-size="12.5" fill="#c9c1e6">PUCPR · 2024 – cursando</text>
-      <text x="104" y="94" font-family="ui-monospace,SFMono-Regular,'JetBrains Mono',Menlo,Consolas,monospace" font-size="12.5" fill="#c9c1e6">base formal da prática</text>
+      <text x="104" y="52" font-family="'Iowan Old Style',Palatino,Georgia,serif" font-size="19" fill="#e0fbff">Systems Analysis &amp; Dev.</text>
+      <text x="104" y="76" font-family="ui-monospace,SFMono-Regular,'JetBrains Mono',Menlo,Consolas,monospace" font-size="12.5" fill="#c9c1e6">PUCPR · 2024 – ongoing</text>
+      <text x="104" y="94" font-family="ui-monospace,SFMono-Regular,'JetBrains Mono',Menlo,Consolas,monospace" font-size="12.5" fill="#c9c1e6">formal base for practice</text>
     </g>
 
     <!-- card 5 -->
@@ -136,9 +136,9 @@
           </rect>
         </g>
       </g>
-      <text x="104" y="52" font-family="'Iowan Old Style',Palatino,Georgia,serif" font-size="19" fill="#e0fbff">IA em produção na educação</text>
-      <text x="104" y="76" font-family="ui-monospace,SFMono-Regular,'JetBrains Mono',Menlo,Consolas,monospace" font-size="12.5" fill="#c9c1e6">Expandel · ago/2025 – hoje</text>
-      <text x="104" y="94" font-family="ui-monospace,SFMono-Regular,'JetBrains Mono',Menlo,Consolas,monospace" font-size="12.5" fill="#c9c1e6">IA, dados e produto em educação</text>
+      <text x="104" y="52" font-family="'Iowan Old Style',Palatino,Georgia,serif" font-size="19" fill="#e0fbff">AI in production for education</text>
+      <text x="104" y="76" font-family="ui-monospace,SFMono-Regular,'JetBrains Mono',Menlo,Consolas,monospace" font-size="12.5" fill="#c9c1e6">Expandel · aug/2025 – now</text>
+      <text x="104" y="94" font-family="ui-monospace,SFMono-Regular,'JetBrains Mono',Menlo,Consolas,monospace" font-size="12.5" fill="#c9c1e6">AI, data and product for schools</text>
     </g>
 
     <!-- card 6 -->
@@ -158,9 +158,9 @@
           </rect>
         </g>
       </g>
-      <text x="104" y="52" font-family="'Iowan Old Style',Palatino,Georgia,serif" font-size="19" fill="#e0fbff">Curiosidade em produção</text>
-      <text x="104" y="76" font-family="ui-monospace,SFMono-Regular,'JetBrains Mono',Menlo,Consolas,monospace" font-size="12.5" fill="#c9c1e6">second brain, automações, agentes</text>
-      <text x="104" y="94" font-family="ui-monospace,SFMono-Regular,'JetBrains Mono',Menlo,Consolas,monospace" font-size="12.5" fill="#c9c1e6">o repo privado dos meus testes</text>
+      <text x="104" y="52" font-family="'Iowan Old Style',Palatino,Georgia,serif" font-size="19" fill="#e0fbff">Curiosity in production</text>
+      <text x="104" y="76" font-family="ui-monospace,SFMono-Regular,'JetBrains Mono',Menlo,Consolas,monospace" font-size="12.5" fill="#c9c1e6">second brain, automations, agents</text>
+      <text x="104" y="94" font-family="ui-monospace,SFMono-Regular,'JetBrains Mono',Menlo,Consolas,monospace" font-size="12.5" fill="#c9c1e6">where I test what I don't know</text>
     </g>
   </g>
   <rect x="0.5" y="0.5" width="1279" height="419" rx="18" fill="none" stroke="#a78bfa" stroke-opacity="0.26"/>

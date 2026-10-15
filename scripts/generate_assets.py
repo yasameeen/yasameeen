@@ -116,14 +116,14 @@ def svg_numbers(user: dict, repos: list[dict], token: str | None, private_metric
     issues = search_count(f"author:{login} type:issue", tok)
 
     blocks = [
-        ("repositórios públicos", str(user.get("public_repos", len(repos)))),
-        ("seguidores", str(user.get("followers", 0))),
-        ("estrelas recebidas", str(stars)),
-        ("linguagens no código", str(len(langs))),
-        ("pull requests" + ("" if private_metrics else " públicas"), str(prs)),
-        ("prs mergeadas", str(merged)),
-        ("issues registradas", str(issues)),
-        ("último push", last_push_br),
+        ("public repositories", str(user.get("public_repos", len(repos)))),
+        ("followers", str(user.get("followers", 0))),
+        ("stars received", str(stars)),
+        ("languages in code", str(len(langs))),
+        ("pull requests" + ("" if private_metrics else " public"), str(prs)),
+        ("merged prs", str(merged)),
+        ("issues filed", str(issues)),
+        ("last push", last_push_br),
     ]
     parts = []
     for i, (label, value) in enumerate(blocks):
@@ -155,9 +155,9 @@ def svg_numbers(user: dict, repos: list[dict], token: str | None, private_metric
         lx += 46 + len(name) * 8.2
     if not legend:
         legend.append(f'  <text x="78" y="362" font-family="{MONO}" font-size="13" fill="#8b81ad">'
-                      f'nenhuma linguagem pública ainda — o trabalho mora nos repos privados</text>')
+                      f'no public language yet — the work lives in private repos</text>')
 
-    return f'''<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 400" width="1280" height="400" role="img" aria-label="números do GitHub de {esc(login)}">
+    return f'''<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 400" width="1280" height="400" role="img" aria-label="GitHub numbers for {esc(login)}">
   <defs>
     <linearGradient id="nb" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0%" stop-color="#0a0518"/><stop offset="60%" stop-color="#0e0722"/><stop offset="100%" stop-color="#0b0b24"/>
@@ -175,12 +175,12 @@ def svg_numbers(user: dict, repos: list[dict], token: str | None, private_metric
     <rect width="1280" height="400" fill="url(#nh)"/>
     <rect width="1280" height="400" fill="url(#nh2)"/>
     <g stroke="#a78bfa" stroke-opacity="0.07"><path d="M370 0 V400 M662 0 V400 M954 0 V400 M0 210 H1280"/></g>
-    <text x="78" y="52" font-family="{MONO}" font-size="14" letter-spacing="4" fill="#f6c177">✦ NÚMEROS REAIS, COLHIDOS HOJE</text>
-    <text x="1202" y="52" font-family="{MONO}" font-size="12.5" letter-spacing="2" fill="#8b81ad" text-anchor="end">gerado {datetime.now(timezone.utc).strftime('%d/%m/%Y %H:%M UTC')}</text>
+    <text x="78" y="52" font-family="{MONO}" font-size="14" letter-spacing="4" fill="#f6c177">✦ REAL NUMBERS, COLLECTED TODAY</text>
+    <text x="1202" y="52" font-family="{MONO}" font-size="12.5" letter-spacing="2" fill="#8b81ad" text-anchor="end">generated {datetime.now(timezone.utc).strftime('%d/%m/%Y %H:%M UTC')}</text>
 {chr(10).join(parts)}
     <g>{chr(10)}{chr(10).join(segs)}{chr(10)}    </g>
 {chr(10).join(legend)}
-    <text x="1202" y="362" font-family="{MONO}" font-size="11.5" letter-spacing="2" fill="#8b81ad" text-anchor="end">{esc(user.get('name') or login)} · {years} anos de conta</text>
+    <text x="1202" y="362" font-family="{MONO}" font-size="11.5" letter-spacing="2" fill="#8b81ad" text-anchor="end">{esc(user.get('name') or login)} · {years} years on GitHub</text>
   </g>
   <rect x="0.5" y="0.5" width="1279" height="399" rx="18" fill="none" stroke="#a78bfa" stroke-opacity="0.26"/>
 </svg>
@@ -232,9 +232,9 @@ def svg_activity(user: str, events: list[dict]) -> str:
         else:
             break
     top_kinds = ", ".join(f"{k.replace('Event', '').lower()} {n}" for k, n in
-                          sorted(kinds.items(), key=lambda kv: -kv[1])[:4]) or "sem eventos públicos na janela"
+                          sorted(kinds.items(), key=lambda kv: -kv[1])[:4]) or "no public events in window"
 
-    return f'''<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 320" width="1280" height="320" role="img" aria-label="atividade pública dos últimos 14 dias de {esc(user)}">
+    return f'''<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 320" width="1280" height="320" role="img" aria-label="public activity of the last 14 days for {esc(user)}">
   <defs>
     <linearGradient id="ab" x1="0" y1="0" x2="0" y2="1">
       <stop offset="0%" stop-color="#08040f"/><stop offset="100%" stop-color="#0d0722"/>
@@ -253,13 +253,13 @@ def svg_activity(user: str, events: list[dict]) -> str:
   <g clip-path="url(#ac)">
     <rect width="1280" height="320" fill="url(#ab)"/>
     <rect width="1280" height="320" fill="url(#ah)"/>
-    <text x="88" y="52" font-family="{MONO}" font-size="14" letter-spacing="4" fill="#f6c177">✦ ATIVIDADE PÚBLICA · ÚLTIMOS 14 DIAS</text>
+    <text x="88" y="52" font-family="{MONO}" font-size="14" letter-spacing="4" fill="#f6c177">✦ PUBLIC ACTIVITY · LAST 14 DAYS</text>
     <text x="1192" y="52" font-family="{MONO}" font-size="11.5" letter-spacing="2" fill="#8b81ad" text-anchor="end">{esc(user)} · {esc(top_kinds)}</text>
     <path d="M88 240 H1192" stroke="url(#al)" stroke-width="1.4" fill="none"/>
 {chr(10).join(bars)}
     <g transform="translate(88,292)" font-family="{MONO}" font-size="13" letter-spacing="2" fill="#c9c1e6">
-      <circle cx="0" cy="-4" r="3.6" fill="#f6c177"/><text x="14" y="0">EVENTOS NA JANELA: {total}</text>
-      <circle cx="248" cy="-4" r="3.6" fill="#67e8f9"/><text x="262" y="0">DIAS SEGUIDOS COM ATIVIDADE: {streak}</text>
+      <circle cx="0" cy="-4" r="3.6" fill="#f6c177"/><text x="14" y="0">EVENTS IN WINDOW: {total}</text>
+      <circle cx="248" cy="-4" r="3.6" fill="#67e8f9"/><text x="262" y="0">CONSECUTIVE ACTIVE DAYS: {streak}</text>
     </g>
   </g>
   <rect x="0.5" y="0.5" width="1279" height="319" rx="18" fill="none" stroke="#a78bfa" stroke-opacity="0.26"/>
