@@ -20,6 +20,8 @@ My journey gives me a rare perspective: I understand both the technical and the 
 </div>
 
 
+<br>
+
 <div align="center">
 
 # 💻 Tech Stack
@@ -147,6 +149,8 @@ My journey gives me a rare perspective: I understand both the technical and the 
 </div>
 
 
+<br>
+
 <div align="center">
 
 # 🔐 Professional Values
@@ -164,6 +168,8 @@ My journey gives me a rare perspective: I understand both the technical and the 
   </tr>
 </table>
 
+
+<br>
 
 <div align="center">
 
@@ -186,6 +192,8 @@ My journey gives me a rare perspective: I understand both the technical and the 
 - 🔐 **Privacy by design.** LGPD and MEC guidelines respected in everything I ship, from data modeling to the classroom.
 
 
+<br>
+
 <div align="center">
 
 # ⭐ Contributions
@@ -198,6 +206,8 @@ My journey gives me a rare perspective: I understand both the technical and the 
 
 </div>
 
+
+<br>
 
 <div align="center">
 
