@@ -10,7 +10,6 @@ As a Full Stack Developer with a product instinct, I build AI, data and full-sta
 
 My journey gives me a rare perspective: I understand both the technical and the human side of a product, and that is why I deliver more than systems, I deliver solutions that truly work for the people using them. Fluent in English, I move easily through global documentation and international collaborations, making sure technological innovation walks together with real impact.
 
----
 
 <div align="center">
 
@@ -20,7 +19,6 @@ My journey gives me a rare perspective: I understand both the technical and the 
 
 </div>
 
----
 
 <div align="center">
 
@@ -148,7 +146,6 @@ My journey gives me a rare perspective: I understand both the technical and the 
 
 </div>
 
----
 
 <div align="center">
 
@@ -167,7 +164,6 @@ My journey gives me a rare perspective: I understand both the technical and the 
   </tr>
 </table>
 
----
 
 <div align="center">
 
@@ -175,10 +171,10 @@ My journey gives me a rare perspective: I understand both the technical and the 
 
 <table>
   <tr>
-    <td align="center" width="25%"><img src="https://raw.githubusercontent.com/yasameeen/yasameeen/main/icons/metric-users.svg" width="46" alt="active users"><h3>600k+</h3><b>active users</b><br>across every platform I work on</td>
-    <td align="center" width="25%"><img src="https://raw.githubusercontent.com/yasameeen/yasameeen/main/icons/metric-education.svg" width="46" alt="education systems"><h3>2</h3><b>education systems</b><br>MEC (Brazil) and MEDUCA (Panama)</td>
-    <td align="center" width="25%"><img src="https://raw.githubusercontent.com/yasameeen/yasameeen/main/icons/metric-devices.svg" width="46" alt="device and print management"><h3>#1</h3><b>device and print management</b><br>won public tenders</td>
-    <td align="center" width="25%"><img src="https://raw.githubusercontent.com/yasameeen/yasameeen/main/icons/metric-google.svg" width="46" alt="Google Editor's Choice"><h3>Google Editor's Choice</h3><b>seal</b><br>on our AI education platform</td>
+    <td align="center" width="25%"><img src="https://raw.githubusercontent.com/yasameeen/yasameeen/main/icons/metric-users.svg" width="46" alt="active users"><h2>600k+</h2><b>active users</b><br>across every platform I work on</td>
+    <td align="center" width="25%"><img src="https://raw.githubusercontent.com/yasameeen/yasameeen/main/icons/metric-education.svg" width="46" alt="education systems"><h2>2</h2><b>education systems</b><br>MEC (Brazil) and MEDUCA (Panama)</td>
+    <td align="center" width="25%"><img src="https://raw.githubusercontent.com/yasameeen/yasameeen/main/icons/metric-devices.svg" width="46" alt="device and print management"><h2>#1</h2><b>device and print management</b><br>won public tenders</td>
+    <td align="center" width="25%"><img src="https://raw.githubusercontent.com/yasameeen/yasameeen/main/icons/metric-google.svg" width="46" alt="Google Editor's Choice"><h2>Google Editor's Choice</h2><b>seal</b><br>on our AI education platform</td>
   </tr>
 </table>
 
@@ -189,7 +185,6 @@ My journey gives me a rare perspective: I understand both the technical and the 
 - 🖥️ **Fleet at school scale.** I support Windows, Android and ChromeOS device management and print management platforms that won public tenders and remain our clients' number one choice across Brazil.
 - 🔐 **Privacy by design.** LGPD and MEC guidelines respected in everything I ship, from data modeling to the classroom.
 
----
 
 <div align="center">
 
@@ -203,7 +198,6 @@ My journey gives me a rare perspective: I understand both the technical and the 
 
 </div>
 
----
 
 <div align="center">
 
